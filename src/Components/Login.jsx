@@ -1,9 +1,9 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Navber from "./Navber";
 import toast from "react-hot-toast";
 
 const Login = () => {
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
     const handleSignIn = e => {
         e.preventDefault()
