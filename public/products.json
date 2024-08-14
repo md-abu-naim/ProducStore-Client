@@ -1,0 +1,463 @@
+[
+    {
+      "name": "Wireless Headphones",
+      "image": "https://example.com/images/wireless-headphones.jpg",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "price": 99.99,
+      "category": "Electronics",
+      "rating": 4.5,
+      "date": "2024-08-15",
+      "time": "04:30:00 PM"
+    },
+    {
+      "name": "Smartphone Stand",
+      "image": "https://example.com/images/smartphone-stand.jpg",
+      "description": "Adjustable smartphone stand for hands-free viewing.",
+      "price": 14.99,
+      "category": "Accessories",
+      "rating": 4.0,
+      "date": "2024-08-14",
+      "time": "08:45:00 PM"
+    },
+    {
+      "name": "Gaming Keyboard",
+      "image": "https://example.com/images/gaming-keyboard.jpg",
+      "description": "RGB backlit mechanical gaming keyboard.",
+      "price": 79.99,
+      "category": "Electronics",
+      "rating": 4.7,
+      "date": "2024-08-13",
+      "time": "06:20:00 PM"
+    },
+    {
+      "name": "Eco-Friendly Water Bottle",
+      "image": "https://example.com/images/water-bottle.jpg",
+      "description": "Reusable and eco-friendly water bottle, BPA-free.",
+      "price": 24.99,
+      "category": "Kitchen",
+      "rating": 4.3,
+      "date": "2024-08-12",
+      "time": "09:15:00 AM"
+    },
+    {
+      "name": "Portable Charger",
+      "image": "https://example.com/images/portable-charger.jpg",
+      "description": "Compact portable charger with fast charging capability.",
+      "price": 29.99,
+      "category": "Electronics",
+      "rating": 4.2,
+      "date": "2024-08-11",
+      "time": "02:00:00 PM"
+    },
+    {
+      "name": "Electric Toothbrush",
+      "image": "https://example.com/images/electric-toothbrush.jpg",
+      "description": "Rechargeable electric toothbrush with multiple settings.",
+      "price": 49.99,
+      "category": "Personal Care",
+      "rating": 4.6,
+      "date": "2024-08-10",
+      "time": "11:30:00 AM"
+    },
+    {
+      "name": "Leather Wallet",
+      "image": "https://example.com/images/leather-wallet.jpg",
+      "description": "Genuine leather wallet with multiple compartments.",
+      "price": 39.99,
+      "category": "Accessories",
+      "rating": 4.1,
+      "date": "2024-08-09",
+      "time": "05:15:00 PM"
+    },
+    {
+      "name": "Desk Lamp",
+      "image": "https://example.com/images/desk-lamp.jpg",
+      "description": "Adjustable desk lamp with LED light.",
+      "price": 34.99,
+      "category": "Home",
+      "rating": 4.4,
+      "date": "2024-08-08",
+      "time": "07:00:00 PM"
+    },
+    {
+      "name": "Bluetooth Earbuds",
+      "image": "https://example.com/images/bluetooth-earbuds.jpg",
+      "description": "Wireless Bluetooth earbuds with charging case.",
+      "price": 59.99,
+      "category": "Electronics",
+      "rating": 4.8,
+      "date": "2024-08-07",
+      "time": "10:30:00 AM"
+    },
+    {
+      "name": "Yoga Mat",
+      "image": "https://example.com/images/yoga-mat.jpg",
+      "description": "High-density foam yoga mat with non-slip surface.",
+      "price": 19.99,
+      "category": "Fitness",
+      "rating": 4.5,
+      "date": "2024-08-06",
+      "time": "03:00:00 PM"
+    },
+    {
+      "name": "Sunglasses",
+      "image": "https://example.com/images/sunglasses.jpg",
+      "description": "Stylish sunglasses with UV protection.",
+      "price": 15.99,
+      "category": "Accessories",
+      "rating": 4.2,
+      "date": "2024-08-05",
+      "time": "01:45:00 PM"
+    },
+    {
+      "name": "Camera Tripod",
+      "image": "https://example.com/images/camera-tripod.jpg",
+      "description": "Adjustable camera tripod for stable shooting.",
+      "price": 42.99,
+      "category": "Photography",
+      "rating": 4.4,
+      "date": "2024-08-04",
+      "time": "06:10:00 PM"
+    },
+    {
+      "name": "Smartwatch",
+      "image": "https://example.com/images/smartwatch.jpg",
+      "description": "Smartwatch with fitness tracking and notifications.",
+      "price": 129.99,
+      "category": "Electronics",
+      "rating": 4.7,
+      "date": "2024-08-03",
+      "time": "11:00:00 AM"
+    },
+    {
+      "name": "Portable Speaker",
+      "image": "https://example.com/images/portable-speaker.jpg",
+      "description": "Compact and powerful portable speaker.",
+      "price": 64.99,
+      "category": "Electronics",
+      "rating": 4.6,
+      "date": "2024-08-02",
+      "time": "02:30:00 PM"
+    },
+    {
+      "name": "Coffee Maker",
+      "image": "https://example.com/images/coffee-maker.jpg",
+      "description": "Automatic coffee maker with programmable settings.",
+      "price": 89.99,
+      "category": "Kitchen",
+      "rating": 4.3,
+      "date": "2024-08-01",
+      "time": "07:45:00 AM"
+    },
+    {
+      "name": "Hand Blender",
+      "image": "https://example.com/images/hand-blender.jpg",
+      "description": "Multi-speed hand blender for smoothies and soups.",
+      "price": 39.99,
+      "category": "Kitchen",
+      "rating": 4.4,
+      "date": "2024-07-31",
+      "time": "04:20:00 PM"
+    },
+    {
+      "name": "Digital Camera",
+      "image": "https://example.com/images/digital-camera.jpg",
+      "description": "High-resolution digital camera with zoom lens.",
+      "price": 499.99,
+      "category": "Photography",
+      "rating": 4.8,
+      "date": "2024-07-30",
+      "time": "10:00:00 AM"
+    },
+    {
+      "name": "Waterproof Backpack",
+      "image": "https://example.com/images/waterproof-backpack.jpg",
+      "description": "Durable waterproof backpack for outdoor activities.",
+      "price": 74.99,
+      "category": "Accessories",
+      "rating": 4.5,
+      "date": "2024-07-29",
+      "time": "12:30:00 PM"
+    },
+    {
+      "name": "Electric Kettle",
+      "image": "https://example.com/images/electric-kettle.jpg",
+      "description": "Fast boiling electric kettle with temperature control.",
+      "price": 34.99,
+      "category": "Kitchen",
+      "rating": 4.2,
+      "date": "2024-07-28",
+      "time": "05:00:00 PM"
+    },
+    {
+      "name": "Fitness Tracker",
+      "image": "https://example.com/images/fitness-tracker.jpg",
+      "description": "Fitness tracker with heart rate monitoring and sleep tracking.",
+      "price": 59.99,
+      "category": "Fitness",
+      "rating": 4.6,
+      "date": "2024-07-27",
+      "time": "08:15:00 AM"
+    },
+    {
+      "name": "Tablet",
+      "image": "https://example.com/images/tablet.jpg",
+      "description": "High-resolution tablet with a fast processor.",
+      "price": 299.99,
+      "category": "Electronics",
+      "rating": 4.5,
+      "date": "2024-07-26",
+      "time": "03:45:00 PM"
+    },
+    {
+      "name": "Air Purifier",
+      "image": "https://example.com/images/air-purifier.jpg",
+      "description": "Air purifier with HEPA filter for clean air.",
+      "price": 149.99,
+      "category": "Home",
+      "rating": 4.7,
+      "date": "2024-07-25",
+      "time": "11:00:00 AM"
+    },
+    {
+      "name": "Portable Fan",
+      "image": "https://example.com/images/portable-fan.jpg",
+      "description": "Rechargeable portable fan with multiple speed settings.",
+      "price": 19.99,
+      "category": "Home",
+      "rating": 4.3,
+      "date": "2024-07-24",
+      "time": "06:30:00 PM"
+    },
+    {
+      "name": "Blender",
+      "image": "https://example.com/images/blender.jpg",
+      "description": "Powerful blender for making smoothies and shakes.",
+      "price": 89.99,
+      "category": "Kitchen",
+      "rating": 4.4,
+      "date": "2024-07-23",
+      "time": "09:00:00 AM"
+    },
+    {
+      "name": "Wireless Mouse",
+      "image": "https://example.com/images/wireless-mouse.jpg",
+      "description": "Ergonomic wireless mouse with adjustable DPI.",
+      "price": 24.99,
+      "category": "Electronics",
+      "rating": 4.2,
+      "date": "2024-07-22",
+      "time": "01:30:00 PM"
+    },
+    {
+      "name": "Digital Thermometer",
+      "image": "https://example.com/images/digital-thermometer.jpg",
+      "description": "Digital thermometer with quick and accurate readings.",
+      "price": 12.99,
+      "category": "Health",
+      "rating": 4.1,
+      "date": "2024-07-21",
+      "time": "07:45:00 AM"
+    },
+    {
+      "name": "Electric Grill",
+      "image": "https://example.com/images/electric-grill.jpg",
+      "description": "Compact electric grill for indoor grilling.",
+      "price": 129.99,
+      "category": "Kitchen",
+      "rating": 4.5,
+      "date": "2024-07-20",
+      "time": "02:00:00 PM"
+    },
+    {
+      "name": "Smart Home Hub",
+      "image": "https://example.com/images/smart-home-hub.jpg",
+      "description": "Central hub for controlling smart home devices.",
+      "price": 99.99,
+      "category": "Electronics",
+      "rating": 4.6,
+      "date": "2024-07-19",
+      "time": "04:15:00 PM"
+    },
+    {
+      "name": "Travel Pillow",
+      "image": "https://example.com/images/travel-pillow.jpg",
+      "description": "Comfortable travel pillow for neck support.",
+      "price": 21.99,
+      "category": "Accessories",
+      "rating": 4.4,
+      "date": "2024-07-18",
+      "time": "10:30:00 AM"
+    },
+    {
+      "name": "Pet Camera",
+      "image": "https://example.com/images/pet-camera.jpg",
+      "description": "Camera for monitoring pets with live streaming.",
+      "price": 149.99,
+      "category": "Electronics",
+      "rating": 4.7,
+      "date": "2024-07-17",
+      "time": "03:00:00 PM"
+    },
+    {
+      "name": "Cordless Drill",
+      "image": "https://example.com/images/cordless-drill.jpg",
+      "description": "Powerful cordless drill with multiple drill bits.",
+      "price": 89.99,
+      "category": "Tools",
+      "rating": 4.6,
+      "date": "2024-07-16",
+      "time": "12:00:00 PM"
+    },
+    {
+      "name": "Electric Blanket",
+      "image": "https://example.com/images/electric-blanket.jpg",
+      "description": "Soft electric blanket with adjustable heat settings.",
+      "price": 79.99,
+      "category": "Home",
+      "rating": 4.5,
+      "date": "2024-07-15",
+      "time": "08:30:00 PM"
+    },
+    {
+      "name": "Wireless Charger",
+      "image": "https://example.com/images/wireless-charger.jpg",
+      "description": "Wireless charger with fast charging capability.",
+      "price": 29.99,
+      "category": "Electronics",
+      "rating": 4.3,
+      "date": "2024-07-14",
+      "time": "11:45:00 AM"
+    },
+    {
+      "name": "Camping Tent",
+      "image": "https://example.com/images/camping-tent.jpg",
+      "description": "Durable camping tent for outdoor adventures.",
+      "price": 149.99,
+      "category": "Outdoors",
+      "rating": 4.6,
+      "date": "2024-07-13",
+      "time": "06:00:00 PM"
+    },
+    {
+      "name": "Multi-tool Kit",
+      "image": "https://example.com/images/multi-tool-kit.jpg",
+      "description": "Versatile multi-tool kit with various functions.",
+      "price": 39.99,
+      "category": "Tools",
+      "rating": 4.4,
+      "date": "2024-07-12",
+      "time": "02:15:00 PM"
+    },
+    {
+      "name": "Coffee Grinder",
+      "image": "https://example.com/images/coffee-grinder.jpg",
+      "description": "Manual coffee grinder with adjustable coarseness.",
+      "price": 22.99,
+      "category": "Kitchen",
+      "rating": 4.2,
+      "date": "2024-07-11",
+      "time": "09:30:00 AM"
+    },
+    {
+      "name": "Hiking Boots",
+      "image": "https://example.com/images/hiking-boots.jpg",
+      "description": "Durable hiking boots for rugged terrains.",
+      "price": 89.99,
+      "category": "Outdoors",
+      "rating": 4.6,
+      "date": "2024-07-10",
+      "time": "03:45:00 PM"
+    },
+    {
+      "name": "Smart Doorbell",
+      "image": "https://example.com/images/smart-doorbell.jpg",
+      "description": "Smart doorbell with video and audio features.",
+      "price": 119.99,
+      "category": "Electronics",
+      "rating": 4.7,
+      "date": "2024-07-09",
+      "time": "11:00:00 AM"
+    },
+    {
+      "name": "Mini Fridge",
+      "image": "https://example.com/images/mini-fridge.jpg",
+      "description": "Compact mini fridge for small spaces.",
+      "price": 129.99,
+      "category": "Home",
+      "rating": 4.5,
+      "date": "2024-07-08",
+      "time": "02:00:00 PM"
+    },
+    {
+      "name": "Digital Radio",
+      "image": "https://example.com/images/digital-radio.jpg",
+      "description": "Digital radio with FM and AM bands.",
+      "price": 44.99,
+      "category": "Electronics",
+      "rating": 4.3,
+      "date": "2024-07-07",
+      "time": "06:30:00 PM"
+    },
+    {
+      "name": "Ice Cream Maker",
+      "image": "https://example.com/images/ice-cream-maker.jpg",
+      "description": "Automatic ice cream maker with various flavors.",
+      "price": 99.99,
+      "category": "Kitchen",
+      "rating": 4.6,
+      "date": "2024-07-06",
+      "time": "08:00:00 PM"
+    },
+    {
+      "name": "Electric Razor",
+      "image": "https://example.com/images/electric-razor.jpg",
+      "description": "Rechargeable electric razor with multiple settings.",
+      "price": 49.99,
+      "category": "Personal Care",
+      "rating": 4.4,
+      "date": "2024-07-05",
+      "time": "07:00:00 AM"
+    },
+    {
+      "name": "Indoor Plant",
+      "image": "https://example.com/images/indoor-plant.jpg",
+      "description": "Low-maintenance indoor plant for home decor.",
+      "price": 14.99,
+      "category": "Home",
+      "rating": 4.2,
+      "date": "2024-07-04",
+      "time": "01:15:00 PM"
+    },
+    {
+      "name": "Exercise Ball",
+      "image": "https://example.com/images/exercise-ball.jpg",
+      "description": "Durable exercise ball for workouts and stretching.",
+      "price": 18.99,
+      "category": "Fitness",
+      "rating": 4.4,
+      "date": "2024-07-03",
+      "time": "09:00:00 AM"
+    },
+    {
+      "name": "Oven Toaster",
+      "image": "https://example.com/images/oven-toaster.jpg",
+      "description": "Compact oven toaster with multiple cooking settings.",
+      "price": 59.99,
+      "category": "Kitchen",
+      "rating": 4.3,
+      "date": "2024-07-02",
+      "time": "04:30:00 PM"
+    },
+    {
+      "name": "Ski Goggles",
+      "image": "https://example.com/images/ski-goggles.jpg",
+      "description": "High-quality ski goggles with anti-fog coating.",
+      "price": 39.99,
+      "category": "Outdoors",
+      "rating": 4.5,
+      "date": "2024-07-01",
+      "time": "10:15:00 AM"
+    }
+  ]
+  
