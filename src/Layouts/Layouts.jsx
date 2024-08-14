@@ -3,7 +3,7 @@ import Navber from "../Components/Navber";
 
 const Layouts = () => {
     return (
-        <div>
+        <div className="lg:px-14 font-serif">
             <Navber />
             <Outlet />
         </div>
