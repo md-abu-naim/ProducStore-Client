@@ -9,10 +9,8 @@ import Layouts from './Layouts/Layouts';
 import Home from './Page/Home';
 import Login from './Components/Login';
 import Register from './Components/Register';
-import {
-  QueryClient,
-  QueryClientProvider,
-} from '@tanstack/react-query'
+import AuthProvider from './Provider/AuthProvider';
+import {Toaster} from "react-hot-toast";
 
 const router = createBrowserRouter([
   {
@@ -36,12 +34,12 @@ const router = createBrowserRouter([
   },
 ]);
 
-const queryClient = new QueryClient()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <QueryClientProvider client={queryClient}>
+    <AuthProvider>
       <RouterProvider router={router} />
-    </QueryClientProvider>
+      <Toaster />
+    </AuthProvider>
   </StrictMode>,
 )

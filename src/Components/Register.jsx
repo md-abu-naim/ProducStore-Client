@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
+import useAuth from "../Provider/useAuth";
 
 
 const Register = () => {
+    const {createUser} = useAuth()
 
     const handleSignIn = e => {
         e.preventDefault()
@@ -26,11 +28,11 @@ const Register = () => {
             return toast.error('Password must contain only numbers.')
         }
 
-        // createUser(email, password)
-        //     .then(result => {
-        //         console.log(result.user);
-        //     })
-        //     .catch(error => toast.error(error.message))
+        createUser(email, password)
+            .then(result => {
+                console.log(result.user);
+            })
+            .catch(error => toast.error(error.message))
 
     }
     return (
