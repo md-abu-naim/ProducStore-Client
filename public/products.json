@@ -1,7 +1,7 @@
 [
     {
       "name": "Wireless Headphones",
-      "image": "https://example.com/images/wireless-headphones.jpg",
+      "image": "https://i.ibb.co/HNhBQnz/Wireless-Headphones.png",
       "description": "High-quality wireless headphones with noise cancellation.",
       "price": 99.99,
       "category": "Electronics",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Smartphone Stand",
-      "image": "https://example.com/images/smartphone-stand.jpg",
+      "image": "https://i.ibb.co/L62vV3w/Smartphone-Stand.png",
       "description": "Adjustable smartphone stand for hands-free viewing.",
       "price": 14.99,
       "category": "Accessories",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Gaming Keyboard",
-      "image": "https://example.com/images/gaming-keyboard.jpg",
+      "image": "https://i.ibb.co/X5VrnT0/Gaming-Keyboard.png",
       "description": "RGB backlit mechanical gaming keyboard.",
       "price": 79.99,
       "category": "Electronics",
@@ -30,8 +30,8 @@
       "time": "06:20:00 PM"
     },
     {
-      "name": "Eco-Friendly Water Bottle",
-      "image": "https://example.com/images/water-bottle.jpg",
+      "name": "Water Bottle",
+      "image": "https://i.ibb.co/m8LgKXQ/Eco-Friendly-Water-Bottle.png",
       "description": "Reusable and eco-friendly water bottle, BPA-free.",
       "price": 24.99,
       "category": "Kitchen",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Portable Charger",
-      "image": "https://example.com/images/portable-charger.jpg",
+      "image": "https://i.ibb.co/5M0Z4MX/Portable-Charger.png",
       "description": "Compact portable charger with fast charging capability.",
       "price": 29.99,
       "category": "Electronics",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Electric Toothbrush",
-      "image": "https://example.com/images/electric-toothbrush.jpg",
+      "image": "https://i.ibb.co/zZq1p43/Electric-Toothbrush.png",
       "description": "Rechargeable electric toothbrush with multiple settings.",
       "price": 49.99,
       "category": "Personal Care",
@@ -61,7 +61,7 @@
     },
     {
       "name": "Leather Wallet",
-      "image": "https://example.com/images/leather-wallet.jpg",
+      "image": "https://i.ibb.co/mT0Kp3h/Leather-Wallet.png",
       "description": "Genuine leather wallet with multiple compartments.",
       "price": 39.99,
       "category": "Accessories",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Desk Lamp",
-      "image": "https://example.com/images/desk-lamp.jpg",
+      "image": "https://i.ibb.co/hF2Vj1F/Desk-Lamp.png",
       "description": "Adjustable desk lamp with LED light.",
       "price": 34.99,
       "category": "Home",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Bluetooth Earbuds",
-      "image": "https://example.com/images/bluetooth-earbuds.jpg",
+      "image": "https://i.ibb.co/Y8RZ0nr/Bluetooth-Earbuds.png",
       "description": "Wireless Bluetooth earbuds with charging case.",
       "price": 59.99,
       "category": "Electronics",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Yoga Mat",
-      "image": "https://example.com/images/yoga-mat.jpg",
+      "image": "https://i.ibb.co/PwtS7HD/Yoga-Mat.png",
       "description": "High-density foam yoga mat with non-slip surface.",
       "price": 19.99,
       "category": "Fitness",
@@ -101,7 +101,7 @@
     },
     {
       "name": "Sunglasses",
-      "image": "https://example.com/images/sunglasses.jpg",
+      "image": "https://i.ibb.co/n60vF2V/Sunglasses.jpg",
       "description": "Stylish sunglasses with UV protection.",
       "price": 15.99,
       "category": "Accessories",
@@ -111,7 +111,7 @@
     },
     {
       "name": "Camera Tripod",
-      "image": "https://example.com/images/camera-tripod.jpg",
+      "image": "https://i.ibb.co/CvKWB94/Camera-Tripod.png",
       "description": "Adjustable camera tripod for stable shooting.",
       "price": 42.99,
       "category": "Photography",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Smartwatch",
-      "image": "https://example.com/images/smartwatch.jpg",
+      "image": "https://i.ibb.co/fvfmqgf/Smartwatch.png",
       "description": "Smartwatch with fitness tracking and notifications.",
       "price": 129.99,
       "category": "Electronics",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Portable Speaker",
-      "image": "https://example.com/images/portable-speaker.jpg",
+      "image": "https://i.ibb.co/72TwSgh/Portable-Speaker.jpg",
       "description": "Compact and powerful portable speaker.",
       "price": 64.99,
       "category": "Electronics",
@@ -141,7 +141,7 @@
     },
     {
       "name": "Coffee Maker",
-      "image": "https://example.com/images/coffee-maker.jpg",
+      "image": "https://i.ibb.co/0qzGzkf/Coffee-Maker.png",
       "description": "Automatic coffee maker with programmable settings.",
       "price": 89.99,
       "category": "Kitchen",
@@ -151,7 +151,7 @@
     },
     {
       "name": "Hand Blender",
-      "image": "https://example.com/images/hand-blender.jpg",
+      "image": "https://i.ibb.co/NrxbHLv/Hand-Blender.png",
       "description": "Multi-speed hand blender for smoothies and soups.",
       "price": 39.99,
       "category": "Kitchen",
@@ -161,7 +161,7 @@
     },
     {
       "name": "Digital Camera",
-      "image": "https://example.com/images/digital-camera.jpg",
+      "image": "https://i.ibb.co/VCfkWzW/Digital-Camera.png",
       "description": "High-resolution digital camera with zoom lens.",
       "price": 499.99,
       "category": "Photography",
@@ -171,7 +171,7 @@
     },
     {
       "name": "Waterproof Backpack",
-      "image": "https://example.com/images/waterproof-backpack.jpg",
+      "image": "https://i.ibb.co/C6VHbDs/Waterproof-Backpack.jpg",
       "description": "Durable waterproof backpack for outdoor activities.",
       "price": 74.99,
       "category": "Accessories",
@@ -181,7 +181,7 @@
     },
     {
       "name": "Electric Kettle",
-      "image": "https://example.com/images/electric-kettle.jpg",
+      "image": "https://i.ibb.co/C7TjBNb/Electric-Kettle.png",
       "description": "Fast boiling electric kettle with temperature control.",
       "price": 34.99,
       "category": "Kitchen",
@@ -191,7 +191,7 @@
     },
     {
       "name": "Fitness Tracker",
-      "image": "https://example.com/images/fitness-tracker.jpg",
+      "image": "https://i.ibb.co/nbb5F66/Fitness-Tracker.png",
       "description": "Fitness tracker with heart rate monitoring and sleep tracking.",
       "price": 59.99,
       "category": "Fitness",
@@ -201,7 +201,7 @@
     },
     {
       "name": "Tablet",
-      "image": "https://example.com/images/tablet.jpg",
+      "image": "https://i.ibb.co/T1VnjNX/Tablet.png",
       "description": "High-resolution tablet with a fast processor.",
       "price": 299.99,
       "category": "Electronics",
@@ -211,7 +211,7 @@
     },
     {
       "name": "Air Purifier",
-      "image": "https://example.com/images/air-purifier.jpg",
+      "image": "https://i.ibb.co/G0YZ08d/Air-Purifier.png",
       "description": "Air purifier with HEPA filter for clean air.",
       "price": 149.99,
       "category": "Home",
@@ -221,7 +221,7 @@
     },
     {
       "name": "Portable Fan",
-      "image": "https://example.com/images/portable-fan.jpg",
+      "image": "https://i.ibb.co/dfLp0hV/Portable-Fan.jpg",
       "description": "Rechargeable portable fan with multiple speed settings.",
       "price": 19.99,
       "category": "Home",
@@ -231,7 +231,7 @@
     },
     {
       "name": "Blender",
-      "image": "https://example.com/images/blender.jpg",
+      "image": "https://i.ibb.co/fGMCLZz/Blender.png",
       "description": "Powerful blender for making smoothies and shakes.",
       "price": 89.99,
       "category": "Kitchen",
@@ -241,7 +241,7 @@
     },
     {
       "name": "Wireless Mouse",
-      "image": "https://example.com/images/wireless-mouse.jpg",
+      "image": "https://i.ibb.co/YtYpVjQ/Wireless-Mouse.jpg",
       "description": "Ergonomic wireless mouse with adjustable DPI.",
       "price": 24.99,
       "category": "Electronics",
@@ -250,7 +250,7 @@
       "time": "01:30:00 PM"
     },
     {
-      "name": "Digital Thermometer",
+      "name": "https://i.ibb.co/JnstXWF/Digital-Thermometer.jpg",
       "image": "https://example.com/images/digital-thermometer.jpg",
       "description": "Digital thermometer with quick and accurate readings.",
       "price": 12.99,
@@ -260,7 +260,7 @@
       "time": "07:45:00 AM"
     },
     {
-      "name": "Electric Grill",
+      "name": "https://i.ibb.co/qkz5Bvh/Electric-Grill.jpg",
       "image": "https://example.com/images/electric-grill.jpg",
       "description": "Compact electric grill for indoor grilling.",
       "price": 129.99,
@@ -271,7 +271,7 @@
     },
     {
       "name": "Smart Home Hub",
-      "image": "https://example.com/images/smart-home-hub.jpg",
+      "image": "https://i.ibb.co/6ZNmrfc/Smart-Home-Hub.png",
       "description": "Central hub for controlling smart home devices.",
       "price": 99.99,
       "category": "Electronics",
@@ -281,7 +281,7 @@
     },
     {
       "name": "Travel Pillow",
-      "image": "https://example.com/images/travel-pillow.jpg",
+      "image": "https://i.ibb.co/sCkXSV9/Travel-Pillow.png",
       "description": "Comfortable travel pillow for neck support.",
       "price": 21.99,
       "category": "Accessories",
@@ -291,7 +291,7 @@
     },
     {
       "name": "Pet Camera",
-      "image": "https://example.com/images/pet-camera.jpg",
+      "image": "https://i.ibb.co/TDfVv2P/Pet-Camera.png",
       "description": "Camera for monitoring pets with live streaming.",
       "price": 149.99,
       "category": "Electronics",
@@ -301,7 +301,7 @@
     },
     {
       "name": "Cordless Drill",
-      "image": "https://example.com/images/cordless-drill.jpg",
+      "image": "https://i.ibb.co/NCyLdPz/Cordless-Drill.jpg",
       "description": "Powerful cordless drill with multiple drill bits.",
       "price": 89.99,
       "category": "Tools",
@@ -311,7 +311,7 @@
     },
     {
       "name": "Electric Blanket",
-      "image": "https://example.com/images/electric-blanket.jpg",
+      "image": "https://i.ibb.co/0XVX5kr/Electric-Blanket.png",
       "description": "Soft electric blanket with adjustable heat settings.",
       "price": 79.99,
       "category": "Home",
@@ -321,7 +321,7 @@
     },
     {
       "name": "Wireless Charger",
-      "image": "https://example.com/images/wireless-charger.jpg",
+      "image": "https://i.ibb.co/LxT5x9s/Wireless-Charger.jpg",
       "description": "Wireless charger with fast charging capability.",
       "price": 29.99,
       "category": "Electronics",
@@ -331,7 +331,7 @@
     },
     {
       "name": "Camping Tent",
-      "image": "https://example.com/images/camping-tent.jpg",
+      "image": "https://i.ibb.co/jGPBSmJ/Camping-Tent.png",
       "description": "Durable camping tent for outdoor adventures.",
       "price": 149.99,
       "category": "Outdoors",
@@ -341,7 +341,7 @@
     },
     {
       "name": "Multi-tool Kit",
-      "image": "https://example.com/images/multi-tool-kit.jpg",
+      "image": "https://i.ibb.co/CbTCTtn/Multi-tool-Kit.jpg",
       "description": "Versatile multi-tool kit with various functions.",
       "price": 39.99,
       "category": "Tools",
@@ -350,7 +350,7 @@
       "time": "02:15:00 PM"
     },
     {
-      "name": "Coffee Grinder",
+      "name": "https://i.ibb.co/jy3jfJX/Coffee-Grinder.jpg",
       "image": "https://example.com/images/coffee-grinder.jpg",
       "description": "Manual coffee grinder with adjustable coarseness.",
       "price": 22.99,
@@ -361,7 +361,7 @@
     },
     {
       "name": "Hiking Boots",
-      "image": "https://example.com/images/hiking-boots.jpg",
+      "image": "https://i.ibb.co/yWsJ71n/Smart-Doorbell.png",
       "description": "Durable hiking boots for rugged terrains.",
       "price": 89.99,
       "category": "Outdoors",
@@ -371,7 +371,7 @@
     },
     {
       "name": "Smart Doorbell",
-      "image": "https://example.com/images/smart-doorbell.jpg",
+      "image": "https://i.ibb.co/yWsJ71n/Smart-Doorbell.png",
       "description": "Smart doorbell with video and audio features.",
       "price": 119.99,
       "category": "Electronics",
@@ -381,7 +381,7 @@
     },
     {
       "name": "Mini Fridge",
-      "image": "https://example.com/images/mini-fridge.jpg",
+      "image": "https://i.ibb.co/JQ7vpwt/Mini-Fridge.jpg",
       "description": "Compact mini fridge for small spaces.",
       "price": 129.99,
       "category": "Home",
@@ -391,7 +391,7 @@
     },
     {
       "name": "Digital Radio",
-      "image": "https://example.com/images/digital-radio.jpg",
+      "image": "  https://i.ibb.co/PTvdNd3/Digital-Radio.jpg",
       "description": "Digital radio with FM and AM bands.",
       "price": 44.99,
       "category": "Electronics",
@@ -401,7 +401,7 @@
     },
     {
       "name": "Ice Cream Maker",
-      "image": "https://example.com/images/ice-cream-maker.jpg",
+      "image": "https://i.ibb.co/0BzHd5T/Ice-Cream-Maker.jpg",
       "description": "Automatic ice cream maker with various flavors.",
       "price": 99.99,
       "category": "Kitchen",
@@ -411,7 +411,7 @@
     },
     {
       "name": "Electric Razor",
-      "image": "https://example.com/images/electric-razor.jpg",
+      "image": "https://i.ibb.co/Rj1QZgH/Electric-Razor.png",
       "description": "Rechargeable electric razor with multiple settings.",
       "price": 49.99,
       "category": "Personal Care",
@@ -421,7 +421,7 @@
     },
     {
       "name": "Indoor Plant",
-      "image": "https://example.com/images/indoor-plant.jpg",
+      "image": "https://i.ibb.co/59PYJkp/Indoor-Plant.png",
       "description": "Low-maintenance indoor plant for home decor.",
       "price": 14.99,
       "category": "Home",
@@ -431,7 +431,7 @@
     },
     {
       "name": "Exercise Ball",
-      "image": "https://example.com/images/exercise-ball.jpg",
+      "image": "https://i.ibb.co/BgGjpcg/Exercise-Ball.png",
       "description": "Durable exercise ball for workouts and stretching.",
       "price": 18.99,
       "category": "Fitness",
@@ -441,7 +441,7 @@
     },
     {
       "name": "Oven Toaster",
-      "image": "https://example.com/images/oven-toaster.jpg",
+      "image": "https://i.ibb.co/BL4pWYP/Oven-Toaster.jpg",
       "description": "Compact oven toaster with multiple cooking settings.",
       "price": 59.99,
       "category": "Kitchen",
@@ -451,7 +451,7 @@
     },
     {
       "name": "Ski Goggles",
-      "image": "https://example.com/images/ski-goggles.jpg",
+      "image": "https://i.ibb.co/DMMnxGk/Ski-Goggles.png",
       "description": "High-quality ski goggles with anti-fog coating.",
       "price": 39.99,
       "category": "Outdoors",

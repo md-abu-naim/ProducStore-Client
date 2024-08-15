@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
-const Login = () => {
-    // const navigate = useNavigate()
+
+const Register = () => {
 
     const handleSignIn = e => {
         e.preventDefault()
         const form = e.target
+        const name = form.name.value
         const email = form.email.value
         const password = form.password.value;
-        const user = {email, password}
-        console.log(user);
+        const newUser = { name, email, password }
+        console.log(newUser);
 
-        e.target.reset()
+        // e.target.reset()
 
         if (password === '') {
             return toast.error('Please fulfill your form')
@@ -25,15 +26,25 @@ const Login = () => {
             return toast.error('Password must contain only numbers.')
         }
 
+        // createUser(email, password)
+        //     .then(result => {
+        //         console.log(result.user);
+        //     })
+        //     .catch(error => toast.error(error.message))
+
     }
     return (
-        <>
+        <div>
             <div className="  py-8 ">
                 <div className="w-full  font-serif max-w-md p-6 text-black m-auto mx-auto bg-gray-300 rounded-2xl shadow-md dark:bg-gray-800">
                     <h2 className='text-2xl my-3 font-bold text-center'>ProducStore</h2>
-                    <h2 className='text-2xl my-3 font-bold text-center'>Please Sign IN.</h2>
+                    <h2 className='text-2xl my-3 font-bold text-center'>Please Sign UP.</h2>
                     <form onSubmit={handleSignIn}>
 
+                        <div className="pb-2">
+                            <label className="block text-sm text-black dark:text-gray-200">Name*</label>
+                            <input type="text" name="name" placeholder="Type your Name" className="block w-full px-4 py-2 text-white bg-gray-600 border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
                         <div className="pb-2">
                             <label className="block text-sm text-black dark:text-gray-200">Email*</label>
                             <input type="email" name="email" placeholder="Enter your Email" className="block w-full px-4 py-2 text-white bg-gray-600 border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
@@ -57,11 +68,11 @@ const Login = () => {
                             </button>
                         </div>
                     </form>
-                    <p className="mt-8 text-xs font-light text-center text-black"> Already have an account? <Link to='/signUp' className="font-bold text-blue-700 dark:text-gray-200 hover:underline">Sign UP</Link></p>
+                    <p className="mt-8 text-xs font-light text-center text-black"> Already have an account? <Link to='/login' className="font-bold text-blue-700 dark:text-gray-200 hover:underline">Sign UP</Link></p>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
-export default Login;
+export default Register;

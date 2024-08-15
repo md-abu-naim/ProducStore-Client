@@ -1,9 +1,11 @@
 import Banner from "../Components/Banner";
+import Products from "../Components/Products";
 
 const Home = () => {
     return (
-        <div>
+        <div className="lg:px-14">
             <Banner />
+            <Products />
         </div>
     );
 };

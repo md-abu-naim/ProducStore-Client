@@ -8,6 +8,7 @@ import {
 import Layouts from './Layouts/Layouts';
 import Home from './Page/Home';
 import Login from './Components/Login';
+import Register from './Components/Register';
 
 const router = createBrowserRouter([
   {
@@ -15,12 +16,16 @@ const router = createBrowserRouter([
     element: <Layouts></Layouts>,
     children: [
       {
-        path:'/',
+        path: '/',
         element: <Home />
       },
       {
-        path:'/login',
+        path: '/login',
         element: <Login />
+      },
+      {
+        path: '/signUp',
+        element: <Register />
       },
 
     ]
@@ -30,6 +35,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
   </StrictMode>,
 )
