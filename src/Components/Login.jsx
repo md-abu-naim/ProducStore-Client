@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
+import axios from 'axios'
 
 const Login = () => {
     // const navigate = useNavigate()
@@ -12,18 +13,15 @@ const Login = () => {
         const user = {email, password}
         console.log(user);
 
-        e.target.reset()
+        
 
-        if (password === '') {
-            return toast.error('Please fulfill your form')
-        }
-        else if (password.length < 5) {
-            return toast.error('Password should be at least 5 characters or longer')
-        }
+        axios.post('http://localhost:5000/produ', user)
+        .then(res => {
+            if (res.data.insertedId) {
+                console.log(res.data);
+            }
+        })
 
-        else if (!/^\d+$/.test(password)) {
-            return toast.error('Password must contain only numbers.')
-        }
 
     }
     return (

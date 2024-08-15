@@ -4,11 +4,20 @@ import { useEffect, useState } from "react";
 
 const Products = () => {
     const [products, setProducts] = useState([])
+    // const [itemsPerPage, setItemPerPage] = useState(3)
+    // const [currentPage, setCurrentPage] = useState(1)
+    // const [count, setCount] = useState(0)
+
+    // const numberOfPages = Math.ceil(count / itemsPerPage)
+    // const pages = [...Array(numberOfPages).keys()].map(element => element + 1)
 
     useEffect(() => {
-       fetch('/products.json')
+       fetch(`http://localhost:5000/products`)
        .then(res => res.json())
-       .then(data => setProducts(data))
+       .then(data => {
+        console.log(data);
+        setProducts(data)
+       })
     }, [])
     return (
         <div className="text-black">
@@ -17,7 +26,7 @@ const Products = () => {
             </div>
            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {
-                products.map(product =>  <div key={product.name} className="card border bg-base-100 shadow-xl">
+                products?.map(product =>  <div key={product.name} className="card border bg-base-100 shadow-xl">
                     <figure className="px-4 pt-5">
                         <img
                             src={product.image}
@@ -51,6 +60,66 @@ const Products = () => {
                 </div>)
             }
            </div>
+
+           <div className='flex justify-center mt-12'>
+                <button
+                    // disabled={ == 1}
+                    // onClick={() => handlePagination(currentPage - 1)}
+                    className='px-4 py-2 mx-1 text-black disabled:text-gray-500 capitalize bg-gray-300 rounded-md disabled:cursor-not-allowed disabled:hover:bg-[#786969] disabled:hover:text-white hover:bg-gray-700  hover:text-white'
+                >
+                    <div className='flex items-center -mx-1'>
+                        <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            className='w-6 h-6 mx-1 rtl:-scale-x-100'
+                            fill='none'
+                            viewBox='0 0 24 24'
+                            stroke='currentColor'
+                        >
+                            <path
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                                strokeWidth='2'
+                                d='M7 16l-4-4m0 0l4-4m-4 4h18'
+                            />
+                        </svg>
+
+                        <span className='mx-1'>previous</span>
+                    </div>
+                </button>
+                {/* {pages.map(btnNum => ( */}
+                    <button
+                        // onClick={() => handlePagination(btnNum)}
+                        // key={btnNum}
+                        // className={`hidden ${currentPage === btnNum ? 'bg-[#c59d5f] text-black' : ''}  px-4 py-2 mx-1 transition-colors duration-300 text-white transform  rounded-md sm:inline hover:bg-[#1B1616]  `}
+                    >
+                        {/* {btnNum} */}
+                    </button>
+                {/* ))} */}
+                <button
+                    // disabled={currentPage === numberOfPages}
+                    // onClick={() => handlePagination(currentPage + 1)}
+                    className='px-4 py-2 mx-1 text-black transition-colors duration-300 transform bg-gray-300 rounded-md hover:bg-gray-700 disabled:hover:bg-[#1B1616] disabled:hover:text-white hover:text-white disabled:cursor-not-allowed disabled:text-gray-500'
+                >
+                    <div className='flex items-center -mx-1'>
+                        <span className='mx-1'>Next</span>
+
+                        <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            className='w-6 h-6 mx-1 rtl:-scale-x-100'
+                            fill='none'
+                            viewBox='0 0 24 24'
+                            stroke='currentColor'
+                        >
+                            <path
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                                strokeWidth='2'
+                                d='M17 8l4 4m0 0l-4 4m4-4H3'
+                            />
+                        </svg>
+                    </div>
+                </button>
+            </div>
         </div>
     );
 };
