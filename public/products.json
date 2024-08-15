@@ -1,463 +1,402 @@
 [
-    {
-      "name": "Wireless Headphones",
-      "image": "https://i.ibb.co/HNhBQnz/Wireless-Headphones.png",
-      "description": "High-quality wireless headphones with noise cancellation.",
-      "price": 99.99,
-      "category": "Electronics",
-      "rating": 4.5,
-      "date": "2024-08-15",
-      "time": "04:30 PM"
-    },
-    {
-      "name": "Smartphone Stand",
-      "image": "https://i.ibb.co/L62vV3w/Smartphone-Stand.png",
-      "description": "Adjustable smartphone stand for hands-free viewing.",
-      "price": 14.99,
-      "category": "Accessories",
-      "rating": 4.0,
-      "date": "2024-08-14",
-      "time": "08:45 PM"
-    },
-    {
-      "name": "Gaming Keyboard",
-      "image": "https://i.ibb.co/X5VrnT0/Gaming-Keyboard.png",
-      "description": "RGB backlit mechanical gaming keyboard.",
-      "price": 79.99,
-      "category": "Electronics",
-      "rating": 4.7,
-      "date": "2024-08-13",
-      "time": "06:20 PM"
-    },
-    {
-      "name": "Water Bottle",
-      "image": "https://i.ibb.co/m8LgKXQ/Eco-Friendly-Water-Bottle.png",
-      "description": "Reusable and eco-friendly water bottle, BPA-free.",
-      "price": 24.99,
-      "category": "Kitchen",
-      "rating": 4.3,
-      "date": "2024-08-12",
-      "time": "09:15 AM"
-    },
-    {
-      "name": "Portable Charger",
-      "image": "https://i.ibb.co/5M0Z4MX/Portable-Charger.png",
-      "description": "Compact portable charger with fast charging capability.",
-      "price": 29.99,
-      "category": "Electronics",
-      "rating": 4.2,
-      "date": "2024-08-11",
-      "time": "02:00 PM"
-    },
-    {
-      "name": "Electric Toothbrush",
-      "image": "https://i.ibb.co/zZq1p43/Electric-Toothbrush.png",
-      "description": "Rechargeable electric toothbrush with multiple settings.",
-      "price": 49.99,
-      "category": "Personal Care",
-      "rating": 4.6,
-      "date": "2024-08-10",
-      "time": "11:30 AM"
-    },
-    {
-      "name": "Leather Wallet",
-      "image": "https://i.ibb.co/mT0Kp3h/Leather-Wallet.png",
-      "description": "Genuine leather wallet with multiple compartments.",
-      "price": 39.99,
-      "category": "Accessories",
-      "rating": 4.1,
-      "date": "2024-08-09",
-      "time": "05:15 PM"
-    },
-    {
-      "name": "Desk Lamp",
-      "image": "https://i.ibb.co/hF2Vj1F/Desk-Lamp.png",
-      "description": "Adjustable desk lamp with LED light.",
-      "price": 34.99,
-      "category": "Home",
-      "rating": 4.4,
-      "date": "2024-08-08",
-      "time": "07:00 PM"
-    },
-    {
-      "name": "Bluetooth Earbuds",
-      "image": "https://i.ibb.co/Y8RZ0nr/Bluetooth-Earbuds.png",
-      "description": "Wireless Bluetooth earbuds with charging case.",
-      "price": 59.99,
-      "category": "Electronics",
-      "rating": 4.8,
-      "date": "2024-08-07",
-      "time": "10:30 AM"
-    },
-    {
-      "name": "Yoga Mat",
-      "image": "https://i.ibb.co/PwtS7HD/Yoga-Mat.png",
-      "description": "High-density foam yoga mat with non-slip surface.",
-      "price": 19.99,
-      "category": "Fitness",
-      "rating": 4.5,
-      "date": "2024-08-06",
-      "time": "03:00 PM"
-    },
-    {
-      "name": "Sunglasses",
-      "image": "https://i.ibb.co/n60vF2V/Sunglasses.jpg",
-      "description": "Stylish sunglasses with UV protection.",
-      "price": 15.99,
-      "category": "Accessories",
-      "rating": 4.2,
-      "date": "2024-08-05",
-      "time": "01:45 PM"
-    },
-    {
-      "name": "Camera Tripod",
-      "image": "https://i.ibb.co/CvKWB94/Camera-Tripod.png",
-      "description": "Adjustable camera tripod for stable shooting.",
-      "price": 42.99,
-      "category": "Photography",
-      "rating": 4.4,
-      "date": "2024-08-04",
-      "time": "06:10 PM"
-    },
-    {
-      "name": "Smartwatch",
-      "image": "https://i.ibb.co/fvfmqgf/Smartwatch.png",
-      "description": "Smartwatch with fitness tracking and notifications.",
-      "price": 129.99,
-      "category": "Electronics",
-      "rating": 4.7,
-      "date": "2024-08-03",
-      "time": "11:00 AM"
-    },
-    {
-      "name": "Portable Speaker",
-      "image": "https://i.ibb.co/72TwSgh/Portable-Speaker.jpg",
-      "description": "Compact and powerful portable speaker.",
-      "price": 64.99,
-      "category": "Electronics",
-      "rating": 4.6,
-      "date": "2024-08-02",
-      "time": "02:30 PM"
-    },
-    {
-      "name": "Coffee Maker",
-      "image": "https://i.ibb.co/0qzGzkf/Coffee-Maker.png",
-      "description": "Automatic coffee maker with programmable settings.",
-      "price": 89.99,
-      "category": "Kitchen",
-      "rating": 4.3,
-      "date": "2024-08-01",
-      "time": "07:45 AM"
-    },
-    {
-      "name": "Hand Blender",
-      "image": "https://i.ibb.co/NrxbHLv/Hand-Blender.png",
-      "description": "Multi-speed hand blender for smoothies and soups.",
-      "price": 39.99,
-      "category": "Kitchen",
-      "rating": 4.4,
-      "date": "2024-07-31",
-      "time": "04:20 PM"
-    },
-    {
-      "name": "Digital Camera",
-      "image": "https://i.ibb.co/VCfkWzW/Digital-Camera.png",
-      "description": "High-resolution digital camera with zoom lens.",
-      "price": 499.99,
-      "category": "Photography",
-      "rating": 4.8,
-      "date": "2024-07-30",
-      "time": "10:00 AM"
-    },
-    {
-      "name": "Waterproof Backpack",
-      "image": "https://i.ibb.co/C6VHbDs/Waterproof-Backpack.jpg",
-      "description": "Durable waterproof backpack for outdoor activities.",
-      "price": 74.99,
-      "category": "Accessories",
-      "rating": 4.5,
-      "date": "2024-07-29",
-      "time": "12:30 PM"
-    },
-    {
-      "name": "Electric Kettle",
-      "image": "https://i.ibb.co/C7TjBNb/Electric-Kettle.png",
-      "description": "Fast boiling electric kettle with temperature control.",
-      "price": 34.99,
-      "category": "Kitchen",
-      "rating": 4.2,
-      "date": "2024-07-28",
-      "time": "05:00 PM"
-    },
-    {
-      "name": "Fitness Tracker",
-      "image": "https://i.ibb.co/nbb5F66/Fitness-Tracker.png",
-      "description": "Fitness tracker with heart rate monitoring and sleep tracking.",
-      "price": 59.99,
-      "category": "Fitness",
-      "rating": 4.6,
-      "date": "2024-07-27",
-      "time": "08:15 AM"
-    },
-    {
-      "name": "Tablet",
-      "image": "https://i.ibb.co/T1VnjNX/Tablet.png",
-      "description": "High-resolution tablet with a fast processor.",
-      "price": 299.99,
-      "category": "Electronics",
-      "rating": 4.5,
-      "date": "2024-07-26",
-      "time": "03:45 PM"
-    },
-    {
-      "name": "Air Purifier",
-      "image": "https://i.ibb.co/G0YZ08d/Air-Purifier.png",
-      "description": "Air purifier with HEPA filter for clean air.",
-      "price": 149.99,
-      "category": "Home",
-      "rating": 4.7,
-      "date": "2024-07-25",
-      "time": "11:00 AM"
-    },
-    {
-      "name": "Portable Fan",
-      "image": "https://i.ibb.co/dfLp0hV/Portable-Fan.jpg",
-      "description": "Rechargeable portable fan with multiple speed settings.",
-      "price": 19.99,
-      "category": "Home",
-      "rating": 4.3,
-      "date": "2024-07-24",
-      "time": "06:30 PM"
-    },
-    {
-      "name": "Blender",
-      "image": "https://i.ibb.co/fGMCLZz/Blender.png",
-      "description": "Powerful blender for making smoothies and shakes.",
-      "price": 89.99,
-      "category": "Kitchen",
-      "rating": 4.4,
-      "date": "2024-07-23",
-      "time": "09:00 AM"
-    },
-    {
-      "name": "Wireless Mouse",
-      "image": "https://i.ibb.co/YtYpVjQ/Wireless-Mouse.jpg",
-      "description": "Ergonomic wireless mouse with adjustable DPI.",
-      "price": 24.99,
-      "category": "Electronics",
-      "rating": 4.2,
-      "date": "2024-07-22",
-      "time": "01:30 PM"
-    },
-    {
-      "name": "https://i.ibb.co/JnstXWF/Digital-Thermometer.jpg",
-      "image": "https://example.com/images/digital-thermometer.jpg",
-      "description": "Digital thermometer with quick and accurate readings.",
-      "price": 12.99,
-      "category": "Health",
-      "rating": 4.1,
-      "date": "2024-07-21",
-      "time": "07:45 AM"
-    },
-    {
-      "name": "https://i.ibb.co/qkz5Bvh/Electric-Grill.jpg",
-      "image": "https://example.com/images/electric-grill.jpg",
-      "description": "Compact electric grill for indoor grilling.",
-      "price": 129.99,
-      "category": "Kitchen",
-      "rating": 4.5,
-      "date": "2024-07-20",
-      "time": "02:00 PM"
-    },
-    {
-      "name": "Smart Home Hub",
-      "image": "https://i.ibb.co/6ZNmrfc/Smart-Home-Hub.png",
-      "description": "Central hub for controlling smart home devices.",
-      "price": 99.99,
-      "category": "Electronics",
-      "rating": 4.6,
-      "date": "2024-07-19",
-      "time": "04:15 PM"
-    },
-    {
-      "name": "Travel Pillow",
-      "image": "https://i.ibb.co/sCkXSV9/Travel-Pillow.png",
-      "description": "Comfortable travel pillow for neck support.",
-      "price": 21.99,
-      "category": "Accessories",
-      "rating": 4.4,
-      "date": "2024-07-18",
-      "time": "10:30 AM"
-    },
-    {
-      "name": "Pet Camera",
-      "image": "https://i.ibb.co/TDfVv2P/Pet-Camera.png",
-      "description": "Camera for monitoring pets with live streaming.",
-      "price": 149.99,
-      "category": "Electronics",
-      "rating": 4.7,
-      "date": "2024-07-17",
-      "time": "03:00 PM"
-    },
-    {
-      "name": "Cordless Drill",
-      "image": "https://i.ibb.co/NCyLdPz/Cordless-Drill.jpg",
-      "description": "Powerful cordless drill with multiple drill bits.",
-      "price": 89.99,
-      "category": "Tools",
-      "rating": 4.6,
-      "date": "2024-07-16",
-      "time": "12:00 PM"
-    },
-    {
-      "name": "Electric Blanket",
-      "image": "https://i.ibb.co/0XVX5kr/Electric-Blanket.png",
-      "description": "Soft electric blanket with adjustable heat settings.",
-      "price": 79.99,
-      "category": "Home",
-      "rating": 4.5,
-      "date": "2024-07-15",
-      "time": "08:30 PM"
-    },
-    {
-      "name": "Wireless Charger",
-      "image": "https://i.ibb.co/LxT5x9s/Wireless-Charger.jpg",
-      "description": "Wireless charger with fast charging capability.",
-      "price": 29.99,
-      "category": "Electronics",
-      "rating": 4.3,
-      "date": "2024-07-14",
-      "time": "11:45 AM"
-    },
-    {
-      "name": "Camping Tent",
-      "image": "https://i.ibb.co/jGPBSmJ/Camping-Tent.png",
-      "description": "Durable camping tent for outdoor adventures.",
-      "price": 149.99,
-      "category": "Outdoors",
-      "rating": 4.6,
-      "date": "2024-07-13",
-      "time": "06:00 PM"
-    },
-    {
-      "name": "Multi-tool Kit",
-      "image": "https://i.ibb.co/CbTCTtn/Multi-tool-Kit.jpg",
-      "description": "Versatile multi-tool kit with various functions.",
-      "price": 39.99,
-      "category": "Tools",
-      "rating": 4.4,
-      "date": "2024-07-12",
-      "time": "02:15 PM"
-    },
-    {
-      "name": "https://i.ibb.co/jy3jfJX/Coffee-Grinder.jpg",
-      "image": "https://example.com/images/coffee-grinder.jpg",
-      "description": "Manual coffee grinder with adjustable coarseness.",
-      "price": 22.99,
-      "category": "Kitchen",
-      "rating": 4.2,
-      "date": "2024-07-11",
-      "time": "09:30 AM"
-    },
-    {
-      "name": "Hiking Boots",
-      "image": "https://i.ibb.co/yWsJ71n/Smart-Doorbell.png",
-      "description": "Durable hiking boots for rugged terrains.",
-      "price": 89.99,
-      "category": "Outdoors",
-      "rating": 4.6,
-      "date": "2024-07-10",
-      "time": "03:45 PM"
-    },
-    {
-      "name": "Smart Doorbell",
-      "image": "https://i.ibb.co/yWsJ71n/Smart-Doorbell.png",
-      "description": "Smart doorbell with video and audio features.",
-      "price": 119.99,
-      "category": "Electronics",
-      "rating": 4.7,
-      "date": "2024-07-09",
-      "time": "11:00 AM"
-    },
-    {
-      "name": "Mini Fridge",
-      "image": "https://i.ibb.co/JQ7vpwt/Mini-Fridge.jpg",
-      "description": "Compact mini fridge for small spaces.",
-      "price": 129.99,
-      "category": "Home",
-      "rating": 4.5,
-      "date": "2024-07-08",
-      "time": "02:00 PM"
-    },
-    {
-      "name": "Digital Radio",
-      "image": "  https://i.ibb.co/PTvdNd3/Digital-Radio.jpg",
-      "description": "Digital radio with FM and AM bands.",
-      "price": 44.99,
-      "category": "Electronics",
-      "rating": 4.3,
-      "date": "2024-07-07",
-      "time": "06:30 PM"
-    },
-    {
-      "name": "Ice Cream Maker",
-      "image": "https://i.ibb.co/0BzHd5T/Ice-Cream-Maker.jpg",
-      "description": "Automatic ice cream maker with various flavors.",
-      "price": 99.99,
-      "category": "Kitchen",
-      "rating": 4.6,
-      "date": "2024-07-06",
-      "time": "08:00 PM"
-    },
-    {
-      "name": "Electric Razor",
-      "image": "https://i.ibb.co/Rj1QZgH/Electric-Razor.png",
-      "description": "Rechargeable electric razor with multiple settings.",
-      "price": 49.99,
-      "category": "Personal Care",
-      "rating": 4.4,
-      "date": "2024-07-05",
-      "time": "07:00 AM"
-    },
-    {
-      "name": "Indoor Plant",
-      "image": "https://i.ibb.co/59PYJkp/Indoor-Plant.png",
-      "description": "Low-maintenance indoor plant for home decor.",
-      "price": 14.99,
-      "category": "Home",
-      "rating": 4.2,
-      "date": "2024-07-04",
-      "time": "01:15 PM"
-    },
-    {
-      "name": "Exercise Ball",
-      "image": "https://i.ibb.co/BgGjpcg/Exercise-Ball.png",
-      "description": "Durable exercise ball for workouts and stretching.",
-      "price": 18.99,
-      "category": "Fitness",
-      "rating": 4.4,
-      "date": "2024-07-03",
-      "time": "09:00 AM"
-    },
-    {
-      "name": "Oven Toaster",
-      "image": "https://i.ibb.co/BL4pWYP/Oven-Toaster.jpg",
-      "description": "Compact oven toaster with multiple cooking settings.",
-      "price": 59.99,
-      "category": "Kitchen",
-      "rating": 4.3,
-      "date": "2024-07-02",
-      "time": "04:30 PM"
-    },
-    {
-      "name": "Ski Goggles",
-      "image": "https://i.ibb.co/DMMnxGk/Ski-Goggles.png",
-      "description": "High-quality ski goggles with anti-fog coating.",
-      "price": 39.99,
-      "category": "Outdoors",
-      "rating": 4.5,
-      "date": "2024-07-01",
-      "time": "10:15 AM"
-    }
-  ]
-  
+  {
+    "name": "Wireless Headphones",
+    "image": "https://i.ibb.co/HNhBQnz/Wireless-Headphones.png",
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "price": 99.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "date": "2024-08-15",
+    "time": "04:30 PM"
+  },
+  {
+    "name": "Smartphone Stand",
+    "image": "https://i.ibb.co/L62vV3w/Smartphone-Stand.png",
+    "description": "Adjustable smartphone stand for hands-free viewing.",
+    "price": 14.99,
+    "category": "Accessories",
+    "rating": 4.0,
+    "date": "2024-08-14",
+    "time": "08:45 PM"
+  },
+  {
+    "name": "Gaming Keyboard",
+    "image": "https://i.ibb.co/X5VrnT0/Gaming-Keyboard.png",
+    "description": "RGB backlit mechanical gaming keyboard.",
+    "price": 79.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "date": "2024-08-13",
+    "time": "06:20 PM"
+  },
+  {
+    "name": "Water Bottle",
+    "image": "https://i.ibb.co/m8LgKXQ/Eco-Friendly-Water-Bottle.png",
+    "description": "Reusable and eco-friendly water bottle, BPA-free.",
+    "price": 24.99,
+    "category": "Kitchen",
+    "rating": 4.3,
+    "date": "2024-08-12",
+    "time": "09:15 AM"
+  },
+  {
+    "name": "Portable Charger",
+    "image": "https://i.ibb.co/5M0Z4MX/Portable-Charger.png",
+    "description": "Compact portable charger with fast charging capability.",
+    "price": 29.99,
+    "category": "Electronics",
+    "rating": 4.2,
+    "date": "2024-08-11",
+    "time": "02:00 PM"
+  },
+  {
+    "name": "Electric Toothbrush",
+    "image": "https://i.ibb.co/zZq1p43/Electric-Toothbrush.png",
+    "description": "Rechargeable electric toothbrush with multiple settings.",
+    "price": 49.99,
+    "category": "Kitchen",
+    "rating": 4.6,
+    "date": "2024-08-10",
+    "time": "11:30 AM"
+  },
+  {
+    "name": "Leather Wallet",
+    "image": "https://i.ibb.co/mT0Kp3h/Leather-Wallet.png",
+    "description": "Genuine leather wallet with multiple compartments.",
+    "price": 39.99,
+    "category": "Accessories",
+    "rating": 4.1,
+    "date": "2024-08-09",
+    "time": "05:15 PM"
+  },
+  {
+    "name": "Desk Lamp",
+    "image": "https://i.ibb.co/hF2Vj1F/Desk-Lamp.png",
+    "description": "Adjustable desk lamp with LED light.",
+    "price": 34.99,
+    "category": "Accessories",
+    "rating": 4.4,
+    "date": "2024-08-08",
+    "time": "07:00 PM"
+  },
+  {
+    "name": "Bluetooth Earbuds",
+    "image": "https://i.ibb.co/Y8RZ0nr/Bluetooth-Earbuds.png",
+    "description": "Wireless Bluetooth earbuds with charging case.",
+    "price": 59.99,
+    "category": "Electronics",
+    "rating": 4.8,
+    "date": "2024-08-07",
+    "time": "10:30 AM"
+  },
+  {
+    "name": "Yoga Mat",
+    "image": "https://i.ibb.co/PwtS7HD/Yoga-Mat.png",
+    "description": "High-density foam yoga mat with non-slip surface.",
+    "price": 19.99,
+    "category": "Fitness",
+    "rating": 4.5,
+    "date": "2024-08-06",
+    "time": "03:00 PM"
+  },
+  {
+    "name": "Sunglasses",
+    "image": "https://i.ibb.co/n60vF2V/Sunglasses.jpg",
+    "description": "Stylish sunglasses with UV protection.",
+    "price": 15.99,
+    "category": "Fitness",
+    "rating": 4.2,
+    "date": "2024-08-05",
+    "time": "01:45 PM"
+  },
+  {
+    "name": "Camera Tripod",
+    "image": "https://i.ibb.co/CvKWB94/Camera-Tripod.png",
+    "description": "Adjustable camera tripod for stable shooting.",
+    "price": 42.99,
+    "category": "Accessories",
+    "rating": 4.4,
+    "date": "2024-08-04",
+    "time": "06:10 PM"
+  },
+  {
+    "name": "Smartwatch",
+    "image": "https://i.ibb.co/fvfmqgf/Smartwatch.png",
+    "description": "Smartwatch with fitness tracking and notifications.",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "date": "2024-08-03",
+    "time": "11:00 AM"
+  },
+  {
+    "name": "Portable Speaker",
+    "image": "https://i.ibb.co/72TwSgh/Portable-Speaker.jpg",
+    "description": "Compact and powerful portable speaker.",
+    "price": 64.99,
+    "category": "Electronics",
+    "rating": 4.6,
+    "date": "2024-08-02",
+    "time": "02:30 PM"
+  },
+  {
+    "name": "Coffee Maker",
+    "image": "https://i.ibb.co/0qzGzkf/Coffee-Maker.png",
+    "description": "Automatic coffee maker with programmable settings.",
+    "price": 89.99,
+    "category": "Kitchen",
+    "rating": 4.3,
+    "date": "2024-08-01",
+    "time": "07:45 AM"
+  },
+  {
+    "name": "Hand Blender",
+    "image": "https://i.ibb.co/NrxbHLv/Hand-Blender.png",
+    "description": "Multi-speed hand blender for smoothies and soups.",
+    "price": 39.99,
+    "category": "Kitchen",
+    "rating": 4.4,
+    "date": "2024-07-31",
+    "time": "04:20 PM"
+  },
+  {
+    "name": "Digital Camera",
+    "image": "https://i.ibb.co/VCfkWzW/Digital-Camera.png",
+    "description": "High-resolution digital camera with zoom lens.",
+    "price": 499.99,
+    "category": "Accessories",
+    "rating": 4.8,
+    "date": "2024-07-30",
+    "time": "10:00 AM"
+  },
+  {
+    "name": "Waterproof Backpack",
+    "image": "https://i.ibb.co/C6VHbDs/Waterproof-Backpack.jpg",
+    "description": "Durable waterproof backpack for outdoor activities.",
+    "price": 74.99,
+    "category": "Accessories",
+    "rating": 4.5,
+    "date": "2024-07-29",
+    "time": "12:30 PM"
+  },
+  {
+    "name": "Electric Kettle",
+    "image": "https://i.ibb.co/C7TjBNb/Electric-Kettle.png",
+    "description": "Fast boiling electric kettle with temperature control.",
+    "price": 34.99,
+    "category": "Kitchen",
+    "rating": 4.2,
+    "date": "2024-07-28",
+    "time": "05:00 PM"
+  },
+  {
+    "name": "Fitness Tracker",
+    "image": "https://i.ibb.co/nbb5F66/Fitness-Tracker.png",
+    "description": "Fitness tracker with heart rate monitoring and sleep tracking.",
+    "price": 59.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-27",
+    "time": "08:15 AM"
+  },
+  {
+    "name": "Tablet",
+    "image": "https://i.ibb.co/T1VnjNX/Tablet.png",
+    "description": "High-resolution tablet with a fast processor.",
+    "price": 299.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "date": "2024-07-26",
+    "time": "03:45 PM"
+  },
+  {
+    "name": "Air Purifier",
+    "image": "https://i.ibb.co/G0YZ08d/Air-Purifier.png",
+    "description": "Air purifier with HEPA filter for clean air.",
+    "price": 149.99,
+    "category": "Fitness",
+    "rating": 4.7,
+    "date": "2024-07-25",
+    "time": "11:00 AM"
+  },
+  {
+    "name": "Portable Fan",
+    "image": "https://i.ibb.co/dfLp0hV/Portable-Fan.jpg",
+    "description": "Rechargeable portable fan with multiple speed settings.",
+    "price": 19.99,
+    "category": "Electronics",
+    "rating": 4.3,
+    "date": "2024-07-24",
+    "time": "06:30 PM"
+  },
+  {
+    "name": "Blender",
+    "image": "https://i.ibb.co/fGMCLZz/Blender.png",
+    "description": "Powerful blender for making smoothies and shakes.",
+    "price": 89.99,
+    "category": "Kitchen",
+    "rating": 4.4,
+    "date": "2024-07-23",
+    "time": "09:00 AM"
+  },
+  {
+    "name": "Wireless Mouse",
+    "image": "https://i.ibb.co/YtYpVjQ/Wireless-Mouse.jpg",
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "price": 24.99,
+    "category": "Electronics",
+    "rating": 4.2,
+    "date": "2024-07-22",
+    "time": "01:30 PM"
+  },
+  {
+    "name": "Smart Home Hub",
+    "image": "https://i.ibb.co/6ZNmrfc/Smart-Home-Hub.png",
+    "description": "Central hub for controlling smart home devices.",
+    "price": 99.99,
+    "category": "Electronics",
+    "rating": 4.6,
+    "date": "2024-07-19",
+    "time": "04:15 PM"
+  },
+  {
+    "name": "Travel Pillow",
+    "image": "https://i.ibb.co/sCkXSV9/Travel-Pillow.png",
+    "description": "Comfortable travel pillow for neck support.",
+    "price": 21.99,
+    "category": "Accessories",
+    "rating": 4.4,
+    "date": "2024-07-18",
+    "time": "10:30 AM"
+  },
+  {
+    "name": "Pet Camera",
+    "image": "https://i.ibb.co/TDfVv2P/Pet-Camera.png",
+    "description": "Camera for monitoring pets with live streaming.",
+    "price": 149.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "date": "2024-07-17",
+    "time": "03:00 PM"
+  },
+  {
+    "name": "Cordless Drill",
+    "image": "https://i.ibb.co/NCyLdPz/Cordless-Drill.jpg",
+    "description": "Powerful cordless drill with multiple drill bits.",
+    "price": 89.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-16",
+    "time": "12:00 PM"
+  },
+  {
+    "name": "Electric Blanket",
+    "image": "https://i.ibb.co/0XVX5kr/Electric-Blanket.png",
+    "description": "Soft electric blanket with adjustable heat settings.",
+    "price": 79.99,
+    "category": "Fitness",
+    "rating": 4.5,
+    "date": "2024-07-15",
+    "time": "08:30 PM"
+  },
+  {
+    "name": "Wireless Charger",
+    "image": "https://i.ibb.co/LxT5x9s/Wireless-Charger.jpg",
+    "description": "Wireless charger with fast charging capability.",
+    "price": 29.99,
+    "category": "Electronics",
+    "rating": 4.3,
+    "date": "2024-07-14",
+    "time": "11:45 AM"
+  },
+  {
+    "name": "Camping Tent",
+    "image": "https://i.ibb.co/jGPBSmJ/Camping-Tent.png",
+    "description": "Durable camping tent for outdoor adventures.",
+    "price": 149.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-13",
+    "time": "06:00 PM"
+  },
+  {
+    "name": "Multi-tool Kit",
+    "image": "https://i.ibb.co/CbTCTtn/Multi-tool-Kit.jpg",
+    "description": "Versatile multi-tool kit with various functions.",
+    "price": 39.99,
+    "category": "Fitness",
+    "rating": 4.4,
+    "date": "2024-07-12",
+    "time": "02:15 PM"
+  },
+  {
+    "name": "Hiking Boots",
+    "image": "https://i.ibb.co/yWsJ71n/Smart-Doorbell.png",
+    "description": "Durable hiking boots for rugged terrains.",
+    "price": 89.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-10",
+    "time": "03:45 PM"
+  },
+  {
+    "name": "Mini Fridge",
+    "image": "https://i.ibb.co/JQ7vpwt/Mini-Fridge.jpg",
+    "description": "Compact mini fridge for small spaces.",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "date": "2024-07-08",
+    "time": "02:00 PM"
+  },
+  {
+    "name": "Digital Radio",
+    "image": "  https://i.ibb.co/PTvdNd3/Digital-Radio.jpg",
+    "description": "Digital radio with FM and AM bands.",
+    "price": 44.99,
+    "category": "Electronics",
+    "rating": 4.3,
+    "date": "2024-07-07",
+    "time": "06:30 PM"
+  },
+  {
+    "name": "Ice Cream Maker",
+    "image": "https://i.ibb.co/0BzHd5T/Ice-Cream-Maker.jpg",
+    "description": "Automatic ice cream maker with various flavors.",
+    "price": 99.99,
+    "category": "Kitchen",
+    "rating": 4.6,
+    "date": "2024-07-06",
+    "time": "08:00 PM"
+  },
+  {
+    "name": "Electric Razor",
+    "image": "https://i.ibb.co/Rj1QZgH/Electric-Razor.png",
+    "description": "Rechargeable electric razor with multiple settings.",
+    "price": 49.99,
+    "category": "Fitness",
+    "rating": 4.4,
+    "date": "2024-07-05",
+    "time": "07:00 AM"
+  },
+  {
+    "name": "Exercise Ball",
+    "image": "https://i.ibb.co/BgGjpcg/Exercise-Ball.png",
+    "description": "Durable exercise ball for workouts and stretching.",
+    "price": 18.99,
+    "category": "Fitness",
+    "rating": 4.4,
+    "date": "2024-07-03",
+    "time": "09:00 AM"
+  },
+  {
+    "name": "Oven Toaster",
+    "image": "https://i.ibb.co/BL4pWYP/Oven-Toaster.jpg",
+    "description": "Compact oven toaster with multiple cooking settings.",
+    "price": 59.99,
+    "category": "Kitchen",
+    "rating": 4.3,
+    "date": "2024-07-02",
+    "time": "04:30 PM"
+  }
+]
