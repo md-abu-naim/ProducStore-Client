@@ -7,7 +7,7 @@
       "category": "Electronics",
       "rating": 4.5,
       "date": "2024-08-15",
-      "time": "04:30:00 PM"
+      "time": "04:30 PM"
     },
     {
       "name": "Smartphone Stand",
@@ -17,7 +17,7 @@
       "category": "Accessories",
       "rating": 4.0,
       "date": "2024-08-14",
-      "time": "08:45:00 PM"
+      "time": "08:45 PM"
     },
     {
       "name": "Gaming Keyboard",
@@ -27,7 +27,7 @@
       "category": "Electronics",
       "rating": 4.7,
       "date": "2024-08-13",
-      "time": "06:20:00 PM"
+      "time": "06:20 PM"
     },
     {
       "name": "Water Bottle",
@@ -37,7 +37,7 @@
       "category": "Kitchen",
       "rating": 4.3,
       "date": "2024-08-12",
-      "time": "09:15:00 AM"
+      "time": "09:15 AM"
     },
     {
       "name": "Portable Charger",
@@ -47,7 +47,7 @@
       "category": "Electronics",
       "rating": 4.2,
       "date": "2024-08-11",
-      "time": "02:00:00 PM"
+      "time": "02:00 PM"
     },
     {
       "name": "Electric Toothbrush",
@@ -57,7 +57,7 @@
       "category": "Personal Care",
       "rating": 4.6,
       "date": "2024-08-10",
-      "time": "11:30:00 AM"
+      "time": "11:30 AM"
     },
     {
       "name": "Leather Wallet",
@@ -67,7 +67,7 @@
       "category": "Accessories",
       "rating": 4.1,
       "date": "2024-08-09",
-      "time": "05:15:00 PM"
+      "time": "05:15 PM"
     },
     {
       "name": "Desk Lamp",
@@ -77,7 +77,7 @@
       "category": "Home",
       "rating": 4.4,
       "date": "2024-08-08",
-      "time": "07:00:00 PM"
+      "time": "07:00 PM"
     },
     {
       "name": "Bluetooth Earbuds",
@@ -87,7 +87,7 @@
       "category": "Electronics",
       "rating": 4.8,
       "date": "2024-08-07",
-      "time": "10:30:00 AM"
+      "time": "10:30 AM"
     },
     {
       "name": "Yoga Mat",
@@ -97,7 +97,7 @@
       "category": "Fitness",
       "rating": 4.5,
       "date": "2024-08-06",
-      "time": "03:00:00 PM"
+      "time": "03:00 PM"
     },
     {
       "name": "Sunglasses",
@@ -107,7 +107,7 @@
       "category": "Accessories",
       "rating": 4.2,
       "date": "2024-08-05",
-      "time": "01:45:00 PM"
+      "time": "01:45 PM"
     },
     {
       "name": "Camera Tripod",
@@ -117,7 +117,7 @@
       "category": "Photography",
       "rating": 4.4,
       "date": "2024-08-04",
-      "time": "06:10:00 PM"
+      "time": "06:10 PM"
     },
     {
       "name": "Smartwatch",
@@ -127,7 +127,7 @@
       "category": "Electronics",
       "rating": 4.7,
       "date": "2024-08-03",
-      "time": "11:00:00 AM"
+      "time": "11:00 AM"
     },
     {
       "name": "Portable Speaker",
@@ -137,7 +137,7 @@
       "category": "Electronics",
       "rating": 4.6,
       "date": "2024-08-02",
-      "time": "02:30:00 PM"
+      "time": "02:30 PM"
     },
     {
       "name": "Coffee Maker",
@@ -147,7 +147,7 @@
       "category": "Kitchen",
       "rating": 4.3,
       "date": "2024-08-01",
-      "time": "07:45:00 AM"
+      "time": "07:45 AM"
     },
     {
       "name": "Hand Blender",
@@ -157,7 +157,7 @@
       "category": "Kitchen",
       "rating": 4.4,
       "date": "2024-07-31",
-      "time": "04:20:00 PM"
+      "time": "04:20 PM"
     },
     {
       "name": "Digital Camera",
@@ -167,7 +167,7 @@
       "category": "Photography",
       "rating": 4.8,
       "date": "2024-07-30",
-      "time": "10:00:00 AM"
+      "time": "10:00 AM"
     },
     {
       "name": "Waterproof Backpack",
@@ -177,7 +177,7 @@
       "category": "Accessories",
       "rating": 4.5,
       "date": "2024-07-29",
-      "time": "12:30:00 PM"
+      "time": "12:30 PM"
     },
     {
       "name": "Electric Kettle",
@@ -187,7 +187,7 @@
       "category": "Kitchen",
       "rating": 4.2,
       "date": "2024-07-28",
-      "time": "05:00:00 PM"
+      "time": "05:00 PM"
     },
     {
       "name": "Fitness Tracker",
@@ -197,7 +197,7 @@
       "category": "Fitness",
       "rating": 4.6,
       "date": "2024-07-27",
-      "time": "08:15:00 AM"
+      "time": "08:15 AM"
     },
     {
       "name": "Tablet",
@@ -207,7 +207,7 @@
       "category": "Electronics",
       "rating": 4.5,
       "date": "2024-07-26",
-      "time": "03:45:00 PM"
+      "time": "03:45 PM"
     },
     {
       "name": "Air Purifier",
@@ -217,7 +217,7 @@
       "category": "Home",
       "rating": 4.7,
       "date": "2024-07-25",
-      "time": "11:00:00 AM"
+      "time": "11:00 AM"
     },
     {
       "name": "Portable Fan",
@@ -227,7 +227,7 @@
       "category": "Home",
       "rating": 4.3,
       "date": "2024-07-24",
-      "time": "06:30:00 PM"
+      "time": "06:30 PM"
     },
     {
       "name": "Blender",
@@ -237,7 +237,7 @@
       "category": "Kitchen",
       "rating": 4.4,
       "date": "2024-07-23",
-      "time": "09:00:00 AM"
+      "time": "09:00 AM"
     },
     {
       "name": "Wireless Mouse",
@@ -247,7 +247,7 @@
       "category": "Electronics",
       "rating": 4.2,
       "date": "2024-07-22",
-      "time": "01:30:00 PM"
+      "time": "01:30 PM"
     },
     {
       "name": "https://i.ibb.co/JnstXWF/Digital-Thermometer.jpg",
@@ -257,7 +257,7 @@
       "category": "Health",
       "rating": 4.1,
       "date": "2024-07-21",
-      "time": "07:45:00 AM"
+      "time": "07:45 AM"
     },
     {
       "name": "https://i.ibb.co/qkz5Bvh/Electric-Grill.jpg",
@@ -267,7 +267,7 @@
       "category": "Kitchen",
       "rating": 4.5,
       "date": "2024-07-20",
-      "time": "02:00:00 PM"
+      "time": "02:00 PM"
     },
     {
       "name": "Smart Home Hub",
@@ -277,7 +277,7 @@
       "category": "Electronics",
       "rating": 4.6,
       "date": "2024-07-19",
-      "time": "04:15:00 PM"
+      "time": "04:15 PM"
     },
     {
       "name": "Travel Pillow",
@@ -287,7 +287,7 @@
       "category": "Accessories",
       "rating": 4.4,
       "date": "2024-07-18",
-      "time": "10:30:00 AM"
+      "time": "10:30 AM"
     },
     {
       "name": "Pet Camera",
@@ -297,7 +297,7 @@
       "category": "Electronics",
       "rating": 4.7,
       "date": "2024-07-17",
-      "time": "03:00:00 PM"
+      "time": "03:00 PM"
     },
     {
       "name": "Cordless Drill",
@@ -307,7 +307,7 @@
       "category": "Tools",
       "rating": 4.6,
       "date": "2024-07-16",
-      "time": "12:00:00 PM"
+      "time": "12:00 PM"
     },
     {
       "name": "Electric Blanket",
@@ -317,7 +317,7 @@
       "category": "Home",
       "rating": 4.5,
       "date": "2024-07-15",
-      "time": "08:30:00 PM"
+      "time": "08:30 PM"
     },
     {
       "name": "Wireless Charger",
@@ -327,7 +327,7 @@
       "category": "Electronics",
       "rating": 4.3,
       "date": "2024-07-14",
-      "time": "11:45:00 AM"
+      "time": "11:45 AM"
     },
     {
       "name": "Camping Tent",
@@ -337,7 +337,7 @@
       "category": "Outdoors",
       "rating": 4.6,
       "date": "2024-07-13",
-      "time": "06:00:00 PM"
+      "time": "06:00 PM"
     },
     {
       "name": "Multi-tool Kit",
@@ -347,7 +347,7 @@
       "category": "Tools",
       "rating": 4.4,
       "date": "2024-07-12",
-      "time": "02:15:00 PM"
+      "time": "02:15 PM"
     },
     {
       "name": "https://i.ibb.co/jy3jfJX/Coffee-Grinder.jpg",
@@ -357,7 +357,7 @@
       "category": "Kitchen",
       "rating": 4.2,
       "date": "2024-07-11",
-      "time": "09:30:00 AM"
+      "time": "09:30 AM"
     },
     {
       "name": "Hiking Boots",
@@ -367,7 +367,7 @@
       "category": "Outdoors",
       "rating": 4.6,
       "date": "2024-07-10",
-      "time": "03:45:00 PM"
+      "time": "03:45 PM"
     },
     {
       "name": "Smart Doorbell",
@@ -377,7 +377,7 @@
       "category": "Electronics",
       "rating": 4.7,
       "date": "2024-07-09",
-      "time": "11:00:00 AM"
+      "time": "11:00 AM"
     },
     {
       "name": "Mini Fridge",
@@ -387,7 +387,7 @@
       "category": "Home",
       "rating": 4.5,
       "date": "2024-07-08",
-      "time": "02:00:00 PM"
+      "time": "02:00 PM"
     },
     {
       "name": "Digital Radio",
@@ -397,7 +397,7 @@
       "category": "Electronics",
       "rating": 4.3,
       "date": "2024-07-07",
-      "time": "06:30:00 PM"
+      "time": "06:30 PM"
     },
     {
       "name": "Ice Cream Maker",
@@ -407,7 +407,7 @@
       "category": "Kitchen",
       "rating": 4.6,
       "date": "2024-07-06",
-      "time": "08:00:00 PM"
+      "time": "08:00 PM"
     },
     {
       "name": "Electric Razor",
@@ -417,7 +417,7 @@
       "category": "Personal Care",
       "rating": 4.4,
       "date": "2024-07-05",
-      "time": "07:00:00 AM"
+      "time": "07:00 AM"
     },
     {
       "name": "Indoor Plant",
@@ -427,7 +427,7 @@
       "category": "Home",
       "rating": 4.2,
       "date": "2024-07-04",
-      "time": "01:15:00 PM"
+      "time": "01:15 PM"
     },
     {
       "name": "Exercise Ball",
@@ -437,7 +437,7 @@
       "category": "Fitness",
       "rating": 4.4,
       "date": "2024-07-03",
-      "time": "09:00:00 AM"
+      "time": "09:00 AM"
     },
     {
       "name": "Oven Toaster",
@@ -447,7 +447,7 @@
       "category": "Kitchen",
       "rating": 4.3,
       "date": "2024-07-02",
-      "time": "04:30:00 PM"
+      "time": "04:30 PM"
     },
     {
       "name": "Ski Goggles",
@@ -457,7 +457,7 @@
       "category": "Outdoors",
       "rating": 4.5,
       "date": "2024-07-01",
-      "time": "10:15:00 AM"
+      "time": "10:15 AM"
     }
   ]
   
