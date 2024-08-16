@@ -32,7 +32,6 @@ const Products = () => {
             .then(res => res.json())
             .then(data => {
                 setProducts(data)
-                console.log(data);
             })
     }, [search, currentPage, itemsPerPage, filter, sort])
 
@@ -94,7 +93,7 @@ const Products = () => {
                         <figure className="px-4 pt-5">
                             <img
                                 src={product.image}
-                                alt="Shoes"
+                                alt={product.name}
                                 className="rounded-xl h-[262px]" />
                         </figure>
                         <div className="card-body  ">
@@ -154,7 +153,7 @@ const Products = () => {
                     <button
                         onClick={() => handlePagination(btnNum)}
                         key={btnNum}
-                        className={`hidden ${currentPage === btnNum ? 'bg-gray-400 ' : ''} px-4 py-2 mx-1 font-sans transition-colors duration-300 transform  rounded-md sm:inline hover:bg-gray-700 hover:text-white`}
+                        className={`hidden ${currentPage === btnNum ? 'bg-gray-400 border-none' : ''} px-4 py-2 mx-1 font-sans bg-gray-200 transition-colors border duration-300 transform  rounded-md sm:inline hover:bg-gray-700 hover:text-white`}
                     >
                         {btnNum}
                     </button>
