@@ -5,28 +5,44 @@ import { useEffect, useState } from "react";
 const Products = () => {
     const [products, setProducts] = useState([])
     const [search, setSearch] = useState('')
-    // const [itemsPerPage, setItemPerPage] = useState(3)
-    // const [currentPage, setCurrentPage] = useState(1)
-    // const [count, setCount] = useState(0)
+    const [filter, setFilter] = useState('')
+    const [sort, setSort] = useState('')
+    // eslint-disable-next-line no-unused-vars
+    const [itemsPerPage, setItemPerPage] = useState(6)
+    const [currentPage, setCurrentPage] = useState(1)
+    const [count, setCount] = useState(0)
 
-    // const numberOfPages = Math.ceil(count / itemsPerPage)
-    // const pages = [...Array(numberOfPages).keys()].map(element => element + 1)
+
+    const numberOfPages = Math.ceil(count / itemsPerPage)
+    const pages = [...Array(numberOfPages).keys()].map(element => element + 1)
 
     const handleSearch = e => {
         e.preventDefault()
         const text = e.target.search.value
         setSearch(text)
         e.target.reset()
-        console.log(text);
+    }
+
+    const handlePagination = (value) => {
+        setCurrentPage(value);
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products?search=${search}`)
+        fetch(`http://localhost:5000/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}`)
             .then(res => res.json())
             .then(data => {
                 setProducts(data)
+                console.log(data);
             })
-    }, [search])
+    }, [search, currentPage, itemsPerPage, filter, sort])
+
+    useEffect(() => {
+        fetch(`http://localhost:5000/products-count?filter=${filter}`)
+            .then(res => res.json())
+            .then(data => {
+                setCount(data.count)
+            })
+    }, [filter])
     return (
         <div className="text-black">
             <div className="text-center lg:mb-10">
@@ -39,19 +55,38 @@ const Products = () => {
                 </label>
             </form>
             <div className="mt-3 flex flex-col p-3 md:flex-row gap-3 ">
-                <select className="select select-bordered w-full max-w-xs">
-                    <option disabled selected>Filter Your Category</option>
-                    <option>Electronics</option>
-                    <option>Accessories</option>
-                    <option>Kitchen</option>
-                    <option>Fitness</option>
-                </select>
-                <select className="select select-bordered w-full max-w-xs">
-                    <option disabled selected>Sort By</option>
-                    <option>Price: High to Low</option>
-                    <option>Price: Low to High</option>
-                    <option>Date: Newest First</option>
-                </select>
+                <div>
+                    <select
+                        onChange={e => {
+                            setFilter(e.target.value)
+                            setCurrentPage(1)
+                        }}
+                        name='category'
+                        id='category'
+                        value={filter}
+                        className='border p-4 rounded-lg'
+                    >
+                        <option value=''>Filter By Category</option>
+                        <option value='Electronics'>Electronics</option>
+                        <option value='Accessories'>Accessories</option>
+                        <option value='Kitchen'>Kitchen</option>
+                        <option value='Fitness'>Fitness</option>
+                    </select>
+                </div>
+                <div>
+                    <select
+                        onChange={e => {
+                            setSort(e.target.value)
+                        }}
+                        value={sort}
+                        className='border p-4 rounded-lg'
+                    >
+                        <option value=''>Sort By</option>
+                        <option value='asc'>Price: High to Low</option>
+                        <option value='dsc'>Price: Low to High</option>
+                        <option value='date'>Date: Newest First</option>
+                    </select>
+                </div>
             </div>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
@@ -92,10 +127,9 @@ const Products = () => {
 
             <div className='flex justify-center mt-12'>
                 <button
-                    // disabled={ == 1}
-                    // onClick={() => handlePagination(currentPage - 1)}
-                    className='px-4 py-2 mx-1 text-black disabled:text-gray-500 capitalize bg-gray-300 rounded-md disabled:cursor-not-allowed disabled:hover:bg-[#786969] disabled:hover:text-white hover:bg-gray-700  hover:text-white'
-                >
+                    disabled={currentPage == 1}
+                    onClick={() => handlePagination(currentPage - 1)}
+                    className='px-4 py-2 mx-1  disabled:text-gray-300 capitalize bg-gray-400 rounded-md disabled:cursor-not-allowed disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:bg-gray-700  hover:text-white'>
                     <div className='flex items-center -mx-1'>
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
@@ -115,20 +149,21 @@ const Products = () => {
                         <span className='mx-1'>previous</span>
                     </div>
                 </button>
-                {/* {pages.map(btnNum => ( */}
+
+                {pages.map(btnNum => (
+                    <button
+                        onClick={() => handlePagination(btnNum)}
+                        key={btnNum}
+                        className={`hidden ${currentPage === btnNum ? 'bg-gray-400 ' : ''} px-4 py-2 mx-1 font-sans transition-colors duration-300 transform  rounded-md sm:inline hover:bg-gray-700 hover:text-white`}
+                    >
+                        {btnNum}
+                    </button>
+                ))}
+
                 <button
-                // onClick={() => handlePagination(btnNum)}
-                // key={btnNum}
-                // className={`hidden ${currentPage === btnNum ? 'bg-[#c59d5f] text-black' : ''}  px-4 py-2 mx-1 transition-colors duration-300 text-white transform  rounded-md sm:inline hover:bg-[#1B1616]  `}
-                >
-                    {/* {btnNum} */}
-                </button>
-                {/* ))} */}
-                <button
-                    // disabled={currentPage === numberOfPages}
-                    // onClick={() => handlePagination(currentPage + 1)}
-                    className='px-4 py-2 mx-1 text-black transition-colors duration-300 transform bg-gray-300 rounded-md hover:bg-gray-700 disabled:hover:bg-[#1B1616] disabled:hover:text-white hover:text-white disabled:cursor-not-allowed disabled:text-gray-500'
-                >
+                    disabled={currentPage === numberOfPages}
+                    onClick={() => handlePagination(currentPage + 1)}
+                    className='px-4 py-2 mx-1  transition-colors duration-300 transform bg-gray-400 rounded-md hover:bg-gray-700 disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:text-white disabled:cursor-not-allowed disabled:text-gray-500'>
                     <div className='flex items-center -mx-1'>
                         <span className='mx-1'>Next</span>
 
