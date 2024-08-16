@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
-import useAuth from "../Provider/useAuth";
-import axios from "axios";
+// import useAuth from "../Provider/useAuth";
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
 
 
 const Register = () => {
-    const {createUser} = useAuth()
+    // const {createUser} = useAuth()
+    const {createUser} = useContext(AuthContext)
 
     const handleSignIn = e => {
         e.preventDefault()
@@ -16,11 +18,7 @@ const Register = () => {
         const newUser = { name, email, password }
         console.log(newUser);
 
-        axios.post('http://localhost:5000/product')
-        .then(res => {
-            console.log(res.data.insetedId);
-            console.log(res.data);
-        })
+        
 
         createUser(email, password)
             .then(result => {
