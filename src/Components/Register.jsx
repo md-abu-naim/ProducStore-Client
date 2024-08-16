@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import useAuth from "../Provider/useAuth";
+import axios from "axios";
 
 
 const Register = () => {
@@ -15,18 +16,11 @@ const Register = () => {
         const newUser = { name, email, password }
         console.log(newUser);
 
-        // e.target.reset()
-
-        if (password === '') {
-            return toast.error('Please fulfill your form')
-        }
-        else if (password.length < 5) {
-            return toast.error('Password should be at least 5 characters or longer')
-        }
-
-        else if (!/^\d+$/.test(password)) {
-            return toast.error('Password must contain only numbers.')
-        }
+        axios.post('http://localhost:5000/product')
+        .then(res => {
+            console.log(res.data.insetedId);
+            console.log(res.data);
+        })
 
         createUser(email, password)
             .then(result => {

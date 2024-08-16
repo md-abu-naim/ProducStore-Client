@@ -31,6 +31,8 @@ const Login = () => {
         googleLogin()
             .then(result => {
                 console.log(result.user);
+                navigate("/")
+                toast.success('Login successfully', result.user)
             })
             .catch(error => console.error(error))
     }

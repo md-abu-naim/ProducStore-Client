@@ -6,7 +6,10 @@ const Products = () => {
     const [products, setProducts] = useState([])
     const [search, setSearch] = useState('')
     const [filter, setFilter] = useState('')
+    const [brandFilter, setBrandFilter] = useState('')
     const [sort, setSort] = useState('')
+    const [minPrice, setMinprice] = useState(0)
+    const [maxPrice, setMaxprice] = useState(0)
     // eslint-disable-next-line no-unused-vars
     const [itemsPerPage, setItemPerPage] = useState(6)
     const [currentPage, setCurrentPage] = useState(1)
@@ -23,25 +26,43 @@ const Products = () => {
         e.target.reset()
     }
 
+    const handlePriceRang = e => {
+        e.preventDefault()
+        const minPrice = e.target.minPrice.value
+        const maxPrice = e.target.maxPrice.value
+        console.log(minPrice, maxPrice);
+        setMinprice(minPrice)
+        setMaxprice(maxPrice)
+    }
+
     const handlePagination = (value) => {
         setCurrentPage(value);
     }
 
+    const handleReset = () => {
+        setSearch('')
+        setFilter('')
+        setBrandFilter('')
+        setSort('')
+        setMaxprice(0)
+        setMinprice(0)
+    }
+
     useEffect(() => {
-        fetch(`http://localhost:5000/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}`)
+        fetch(`http://localhost:5000/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
             .then(res => res.json())
             .then(data => {
                 setProducts(data)
             })
-    }, [search, currentPage, itemsPerPage, filter, sort])
+    }, [search, currentPage, itemsPerPage, filter, sort, brandFilter, minPrice, maxPrice])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products-count?filter=${filter}`)
+        fetch(`http://localhost:5000/products-count?filter=${filter}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
             .then(res => res.json())
             .then(data => {
                 setCount(data.count)
             })
-    }, [filter])
+    }, [brandFilter, filter, maxPrice, minPrice])
     return (
         <div className="text-black">
             <div className="text-center lg:mb-10">
@@ -75,6 +96,31 @@ const Products = () => {
                 <div>
                     <select
                         onChange={e => {
+                            setBrandFilter(e.target.value)
+                            setCurrentPage(1)
+                        }}
+                        value={brandFilter}
+                        className='border p-4 rounded-lg'
+                    >
+                        <option value=''>Filter By Brand</option>
+                        <option value='Apple'>Apple</option>
+                        <option value='GadgetPro'>GadgetPro</option>
+                        <option value='TechSound'>TechSound</option>
+                        <option value='SoundWave'>SoundWave</option>
+                    </select>
+                </div>
+                <form onSubmit={handlePriceRang} className="flex gap-2">
+                    <label className="input input-bordered flex items-center gap-2">
+                        <input type="number" name="minPrice" className="grow" placeholder="Min-Price" />
+                    </label>
+                    <label className="input input-bordered flex items-center gap-2">
+                        <input type="number" name="maxPrice" className="grow" placeholder="Max-Price" />
+                    </label>
+                    <button className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Submit</button>
+                </form>
+                <div>
+                    <select
+                        onChange={e => {
                             setSort(e.target.value)
                         }}
                         value={sort}
@@ -86,6 +132,7 @@ const Products = () => {
                         <option value='date'>Date: Newest First</option>
                     </select>
                 </div>
+                <button onClick={handleReset} className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Reset</button>
             </div>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
@@ -98,13 +145,13 @@ const Products = () => {
                         </figure>
                         <div className="card-body  ">
                             <h2 className="md:text-xl font-extrabold">{product.name}</h2>
-                            <div className="flex justify-between items-center">
+                            <div className="flex justify-between gap-7 items-center">
                                 <p><span className="font-semibold">Catergory:</span> {product.category}</p>
                                 <p className="flex items-center"><IoStarHalf className="font-bold" /><span className="font-sans">{product.rating}</span></p>
                             </div>
                             <div className="flex justify-between items-center">
                                 <p><span className="font-semibold">Date:</span>{product.date}</p>
-                                <p><span className="font-semibold mr-1">Date:</span>{product.time}</p>
+                                <p><span className="font-semibold mr-1">Time:</span>{product.time}</p>
                             </div>
                             <p>{product.description}</p>
                             <div className="card-actions">
