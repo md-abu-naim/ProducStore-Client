@@ -19,6 +19,7 @@ const Products = () => {
     const numberOfPages = Math.ceil(count / itemsPerPage)
     const pages = [...Array(numberOfPages).keys()].map(element => element + 1)
 
+    // handle search
     const handleSearch = e => {
         e.preventDefault()
         const text = e.target.search.value
@@ -26,6 +27,7 @@ const Products = () => {
         e.target.reset()
     }
 
+    // handle price rang
     const handlePriceRang = e => {
         e.preventDefault()
         const minPrice = e.target.minPrice.value
@@ -35,10 +37,12 @@ const Products = () => {
         setMaxprice(maxPrice)
     }
 
+    // handle pagination
     const handlePagination = (value) => {
         setCurrentPage(value);
     }
 
+    // handle reset option
     const handleReset = () => {
         setSearch('')
         setFilter('')
@@ -48,16 +52,18 @@ const Products = () => {
         setMinprice(0)
     }
 
+    // data fatching
     useEffect(() => {
-        fetch(`http://localhost:5000/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
+        fetch(`https://produc-store.vercel.app/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
             .then(res => res.json())
             .then(data => {
                 setProducts(data)
             })
     }, [search, currentPage, itemsPerPage, filter, sort, brandFilter, minPrice, maxPrice])
 
+    // data count fatching
     useEffect(() => {
-        fetch(`http://localhost:5000/products-count?filter=${filter}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
+        fetch(`https://produc-store.vercel.app/products-count?filter=${filter}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
             .then(res => res.json())
             .then(data => {
                 setCount(data.count)
@@ -65,26 +71,31 @@ const Products = () => {
     }, [brandFilter, filter, maxPrice, minPrice])
     return (
         <div className="text-black">
+            {/* heading */}
             <div className="text-center lg:mb-10">
-                <h1 className="uppercase underline text-2xl font-bold">Our Top Products</h1>
+                <h1 className="uppercase underline text-2xl font-bold">Our Top Products </h1>
             </div>
-            <form onSubmit={handleSearch} className="px-3" >
-                <label className="input bg-gray-300 input-bordered flex items-center max-w-sm mx-auto  gap-2">
-                    <input type="text" name="search" className="grow text-black" placeholder="Search Product" />
+
+            {/* Search bar */}
+            <form onSubmit={handleSearch} className="px-3 mt-2" >
+                <label className="input  input-bordered flex items-center max-w-sm mx-auto  gap-2">
+                    <input type="text" name="search" className="grow text-black" placeholder="Search Products" />
                     <button className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Search</button>
                 </label>
             </form>
-            <div className="mt-3 flex flex-col p-3 md:flex-row gap-3 ">
-                <div>
+
+            {/* filtering */}
+            <div className="mt-3 lg:flex flex-col p-3 md:flex-row gap-3 ">
+
+                {/* category filter */}
+                <div className="flex p-2  flex-col md:flex-row gap-3">
                     <select
                         onChange={e => {
                             setFilter(e.target.value)
                             setCurrentPage(1)
                         }}
-                        name='category'
-                        id='category'
                         value={filter}
-                        className='border p-4 rounded-lg'
+                        className='border w-full p-4 rounded-lg'
                     >
                         <option value=''>Filter By Category</option>
                         <option value='Electronics'>Electronics</option>
@@ -92,15 +103,15 @@ const Products = () => {
                         <option value='Kitchen'>Kitchen</option>
                         <option value='Fitness'>Fitness</option>
                     </select>
-                </div>
-                <div>
+
+                    {/* brand filter */}
                     <select
                         onChange={e => {
                             setBrandFilter(e.target.value)
                             setCurrentPage(1)
                         }}
                         value={brandFilter}
-                        className='border p-4 rounded-lg'
+                        className='border w-full p-4 rounded-lg'
                     >
                         <option value=''>Filter By Brand</option>
                         <option value='Apple'>Apple</option>
@@ -109,31 +120,37 @@ const Products = () => {
                         <option value='SoundWave'>SoundWave</option>
                     </select>
                 </div>
-                <form onSubmit={handlePriceRang} className="flex gap-2">
-                    <label className="input input-bordered flex items-center gap-2">
-                        <input type="number" name="minPrice" className="grow" placeholder="Min-Price" />
+
+                {/* price rang form */}
+                <form onSubmit={handlePriceRang} className="flex p-2 justify-between items-center flex-col md:flex-row gap-2">
+                    <label className="input w-full input-bordered flex items-center gap-2">
+                        <input type="number" name="minPrice" className="grow " placeholder="Min-Price" />
                     </label>
-                    <label className="input input-bordered flex items-center gap-2">
+                    <label className="input w-full input-bordered flex items-center gap-2">
                         <input type="number" name="maxPrice" className="grow" placeholder="Max-Price" />
                     </label>
                     <button className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Submit</button>
                 </form>
-                <div>
+
+                {/* sorting */}
+                <div className="flex justify-between items-center gap-3">
                     <select
                         onChange={e => {
                             setSort(e.target.value)
                         }}
                         value={sort}
-                        className='border p-4 rounded-lg'
+                        className='border w-full p-4 rounded-lg'
                     >
                         <option value=''>Sort By</option>
                         <option value='asc'>Price: High to Low</option>
                         <option value='dsc'>Price: Low to High</option>
                         <option value='date'>Date: Newest First</option>
                     </select>
+                    <button onClick={handleReset} className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Reset</button>
                 </div>
-                <button onClick={handleReset} className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Reset</button>
             </div>
+
+            {/* display products card */}
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
                     products?.map(product => <div key={product.name} className="card border bg-base-100 shadow-xl">
@@ -171,7 +188,10 @@ const Products = () => {
                 }
             </div>
 
+            {/* pagination */}
             <div className='flex justify-center mt-12'>
+
+                {/* previous button */}
                 <button
                     disabled={currentPage == 1}
                     onClick={() => handlePagination(currentPage - 1)}
@@ -196,6 +216,7 @@ const Products = () => {
                     </div>
                 </button>
 
+                {/* button number */}
                 {pages.map(btnNum => (
                     <button
                         onClick={() => handlePagination(btnNum)}
@@ -206,6 +227,7 @@ const Products = () => {
                     </button>
                 ))}
 
+                {/* next button */}
                 <button
                     disabled={currentPage === numberOfPages}
                     onClick={() => handlePagination(currentPage + 1)}

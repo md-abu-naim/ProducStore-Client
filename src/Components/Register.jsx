@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-// import useAuth from "../Provider/useAuth";
 import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
 
 
 const Register = () => {
-    // const {createUser} = useAuth()
     const {createUser} = useContext(AuthContext)
+    const navigate = useNavigate()
 
     const handleSignIn = e => {
         e.preventDefault()
@@ -23,6 +22,8 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                navigate('/')
+                toast.success('Sign UP successfully', result.user)
             })
             .catch(error => toast.error(error.message))
 
@@ -34,7 +35,6 @@ const Register = () => {
                     <h2 className='text-2xl my-3 font-bold text-center'>ProducStore</h2>
                     <h2 className='text-2xl my-3 font-bold text-center'>Please Sign UP.</h2>
                     <form onSubmit={handleSignIn}>
-
                         <div className="pb-2">
                             <label className="block text-sm text-black dark:text-gray-200">Name*</label>
                             <input type="text" name="name" placeholder="Type your Name" className="block w-full px-4 py-2 text-white bg-gray-600 border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
@@ -62,7 +62,7 @@ const Register = () => {
                             </button>
                         </div>
                     </form>
-                    <p className="mt-8 text-xs font-light text-center text-black"> Already have an account? <Link to='/login' className="font-bold text-blue-700 dark:text-gray-200 hover:underline">Sign UP</Link></p>
+                    <p className="mt-8 text-xs font-light text-center text-black"> Already have an account? <Link to='/login' className="font-bold text-blue-700 dark:text-gray-200 hover:underline">Sign IN</Link></p>
                 </div>
             </div>
         </div>

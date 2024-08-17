@@ -30,7 +30,7 @@
     "rating": 4.7,
     "date": "2024-08-13",
     "time": "06:20 PM",
-    "brand": "TechSound"
+    "brand": "SoundWave"
   },
   {
     "name": "Water Bottle",
@@ -52,7 +52,7 @@
     "rating": 4.2,
     "date": "2024-08-11",
     "time": "02:00 PM",
-    "brand": "GadgetPro"
+    "brand": "TechSound"
   },
   {
     "name": "Electric Toothbrush",
@@ -63,7 +63,7 @@
     "rating": 4.6,
     "date": "2024-08-10",
     "time": "11:30 AM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Leather Wallet",
@@ -74,7 +74,7 @@
     "rating": 4.1,
     "date": "2024-08-09",
     "time": "05:15 PM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Desk Lamp",
@@ -96,7 +96,7 @@
     "rating": 4.8,
     "date": "2024-08-07",
     "time": "10:30 AM",
-    "brand": "SoundWave"
+    "brand": "TechSound"
   },
   {
     "name": "Yoga Mat",
@@ -118,7 +118,7 @@
     "rating": 4.2,
     "date": "2024-08-05",
     "time": "01:45 PM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Camera Tripod",
@@ -151,7 +151,7 @@
     "rating": 4.6,
     "date": "2024-08-02",
     "time": "02:30 PM",
-    "brand": "SoundWave"
+    "brand": "TechSound"
   },
   {
     "name": "Coffee Maker",
@@ -162,7 +162,7 @@
     "rating": 4.3,
     "date": "2024-08-01",
     "time": "07:45 AM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Hand Blender",
@@ -173,7 +173,7 @@
     "rating": 4.4,
     "date": "2024-07-31",
     "time": "04:20 PM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Digital Camera",
@@ -184,7 +184,7 @@
     "rating": 4.8,
     "date": "2024-07-30",
     "time": "10:00 AM",
-    "brand": "GadgetPro"
+    "brand": "SoundWave"
   },
   {
     "name": "Waterproof Backpack",
@@ -195,7 +195,7 @@
     "rating": 4.5,
     "date": "2024-07-29",
     "time": "12:30 PM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Electric Kettle",
@@ -206,17 +206,193 @@
     "rating": 4.2,
     "date": "2024-07-28",
     "time": "05:00 PM",
-    "brand": "Apple"
+    "brand": "GadgetPro"
   },
   {
     "name": "Fitness Tracker",
     "image": "https://i.ibb.co/nbb5F66/Fitness-Tracker.png",
-    "description": "Fitness tracker with heart rate monitor and GPS.",
-    "price": 54.99,
+    "description": "Fitness tracker with heart rate monitoring and activity tracking.",
+    "price": 49.99,
     "category": "Fitness",
     "rating": 4.6,
     "date": "2024-07-27",
-    "time": "09:15 AM",
+    "time": "08:00 AM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "LED Desk Light",
+    "image": "https://i.ibb.co/1mMsf5C/LED-Desk-Light.png",
+    "description": "Adjustable LED desk light with touch control.",
+    "price": 29.99,
+    "category": "Accessories",
+    "rating": 4.3,
+    "date": "2024-07-26",
+    "time": "03:30 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Smart Home Hub",
+    "image": "https://i.ibb.co/X2Z2xGC/Smart-Home-Hub.png",
+    "description": "Smart home hub for managing connected devices.",
+    "price": 149.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "date": "2024-07-25",
+    "time": "10:00 AM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "Travel Pillow",
+    "image": "https://i.ibb.co/sCkXSV9/Travel-Pillow.png",
+    "description": "Comfortable travel pillow for neck support.",
+    "price": 21.99,
+    "category": "Accessories",
+    "rating": 4.4,
+    "date": "2024-07-18",
+    "time": "10:30 AM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "Pet Camera",
+    "image": "https://i.ibb.co/TDfVv2P/Pet-Camera.png",
+    "description": "Camera for monitoring pets with live streaming.",
+    "price": 149.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "date": "2024-07-17",
+    "time": "03:00 PM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "Cordless Drill",
+    "image": "https://i.ibb.co/NCyLdPz/Cordless-Drill.jpg",
+    "description": "Powerful cordless drill with multiple drill bits.",
+    "price": 89.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-16",
+    "time": "12:00 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Electric Blanket",
+    "image": "https://i.ibb.co/0XVX5kr/Electric-Blanket.png",
+    "description": "Soft electric blanket with adjustable heat settings.",
+    "price": 79.99,
+    "category": "Fitness",
+    "rating": 4.5,
+    "date": "2024-07-15",
+    "time": "08:30 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Wireless Charger",
+    "image": "https://i.ibb.co/LxT5x9s/Wireless-Charger.jpg",
+    "description": "Wireless charger with fast charging capability.",
+    "price": 29.99,
+    "category": "Electronics",
+    "rating": 4.3,
+    "date": "2024-07-14",
+    "time": "11:45 AM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "Camping Tent",
+    "image": "https://i.ibb.co/jGPBSmJ/Camping-Tent.png",
+    "description": "Durable camping tent for outdoor adventures.",
+    "price": 149.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-13",
+    "time": "06:00 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Multi-tool Kit",
+    "image": "https://i.ibb.co/CbTCTtn/Multi-tool-Kit.jpg",
+    "description": "Versatile multi-tool kit with various functions.",
+    "price": 39.99,
+    "category": "Fitness",
+    "rating": 4.4,
+    "date": "2024-07-12",
+    "time": "02:15 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Hiking Boots",
+    "image": "https://i.ibb.co/yWsJ71n/Smart-Doorbell.png",
+    "description": "Durable hiking boots for rugged terrains.",
+    "price": 89.99,
+    "category": "Fitness",
+    "rating": 4.6,
+    "date": "2024-07-10",
+    "time": "03:45 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Mini Fridge",
+    "image": "https://i.ibb.co/JQ7vpwt/Mini-Fridge.jpg",
+    "description": "Compact mini fridge for small spaces.",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "date": "2024-07-08",
+    "time": "02:00 PM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "Digital Radio",
+    "image": "https://i.ibb.co/PTvdNd3/Digital-Radio.jpg",
+    "description": "Digital radio with FM and AM bands.",
+    "price": 44.99,
+    "category": "Electronics",
+    "rating": 4.3,
+    "date": "2024-07-07",
+    "time": "06:30 PM",
+    "brand": "TechSound"
+  },
+  {
+    "name": "Ice Cream Maker",
+    "image": "https://i.ibb.co/0BzHd5T/Ice-Cream-Maker.jpg",
+    "description": "Automatic ice cream maker with various flavors.",
+    "price": 99.99,
+    "category": "Kitchen",
+    "rating": 4.6,
+    "date": "2024-07-06",
+    "time": "08:00 PM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Electric Razor",
+    "image": "https://i.ibb.co/Rj1QZgH/Electric-Razor.png",
+    "description": "Rechargeable electric razor with multiple settings.",
+    "price": 49.99,
+    "category": "Fitness",
+    "rating": 4.4,
+    "date": "2024-07-05",
+    "time": "07:00 AM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Exercise Ball",
+    "image": "https://i.ibb.co/BgGjpcg/Exercise-Ball.png",
+    "description": "Durable exercise ball for workouts and stretching.",
+    "price": 18.99,
+    "category": "Fitness",
+    "rating": 4.4,
+    "date": "2024-07-03",
+    "time": "09:00 AM",
+    "brand": "GadgetPro"
+  },
+  {
+    "name": "Oven Toaster",
+    "image": "https://i.ibb.co/BL4pWYP/Oven-Toaster.jpg",
+    "description": "Compact oven toaster with multiple cooking settings.",
+    "price": 59.99,
+    "category": "Kitchen",
+    "rating": 4.3,
+    "date": "2024-07-02",
+    "time": "04:30 PM",
     "brand": "GadgetPro"
   }
 ]
