@@ -158,7 +158,7 @@ const Products = () => {
             </div>
 
             {/* display products card */}
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div id="produts" className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
                     products?.map(product => <div key={product.name} className="card border bg-base-100 shadow-xl">
                         <figure className="px-4 pt-5">
