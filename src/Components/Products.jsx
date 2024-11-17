@@ -14,6 +14,7 @@ const Products = () => {
     const [itemsPerPage, setItemPerPage] = useState(6)
     const [currentPage, setCurrentPage] = useState(1)
     const [count, setCount] = useState(0)
+    const [details, setDetails] = useState([])
 
 
     const numberOfPages = Math.ceil(count / itemsPerPage)
@@ -50,6 +51,12 @@ const Products = () => {
         setSort('')
         setMaxprice(0)
         setMinprice(0)
+    }
+
+    const handleShowModal = (product) => {
+        console.log(product);
+        document.getElementById('my_modal_4').showModal()
+        setDetails(product)
     }
 
     // data fatching
@@ -168,11 +175,11 @@ const Products = () => {
                             </div>
                             <div className="flex justify-between items-center">
                                 <p><span className="font-semibold">Date:</span>{product.date}</p>
-                                <p><span className="font-semibold mr-1">Time:</span>{product.time}</p>
+                                <p className="flex items-center"><span className="font-semibold mr-1 ">Price:</span><span className="flex items-center"><BsCurrencyDollar />{product.price}</span></p>
                             </div>
                             <p>{product.description}</p>
                             <div className="card-actions">
-                                <div className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
+                                <button onClick={()=>handleShowModal(product)} className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
                                     <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-[#1B1616] to-gray-500 group-hover:opacity-100"></span>
                                     <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                     <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
@@ -180,8 +187,8 @@ const Products = () => {
                                     <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
                                     <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
                                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                                    <span className="relative flex items-center hover:text-white text-xl font-sans"><BsCurrencyDollar />{product.price}</span>
-                                </div>
+                                    <span className="relative flex items-center hover:text-white text-xl font-sans">View Details</span>
+                                </button>
                             </div>
                         </div>
                     </div>)
@@ -252,6 +259,25 @@ const Products = () => {
                     </div>
                 </button>
             </div>
+
+            {/* modal */}
+            {/* You can open the modal using document.getElementById('ID').showModal() method */}
+            {/* <button className="btn" onClick={() => document.getElementById('my_modal_4').showModal()}>open modal</button> */}
+            <dialog id="my_modal_4" className="modal">
+                <div className="modal-box max-w-5xl">
+                    <div>
+                        <div>
+                            <img src={details.image} alt="" />
+                        </div>
+                    </div>
+                    <div className="modal-action">
+                        <form method="dialog">
+                            {/* if there is a button, it will close the modal */}
+                            <button className="btn">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
         </div>
     );
 };
