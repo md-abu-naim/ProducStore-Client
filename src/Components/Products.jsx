@@ -179,7 +179,7 @@ const Products = () => {
                             </div>
                             <p>{product.description}</p>
                             <div className="card-actions">
-                                <button onClick={()=>handleShowModal(product)} className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
+                                <button onClick={() => handleShowModal(product)} className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
                                     <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-[#1B1616] to-gray-500 group-hover:opacity-100"></span>
                                     <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                     <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
@@ -261,15 +261,13 @@ const Products = () => {
             </div>
 
             {/* modal */}
-            {/* You can open the modal using document.getElementById('ID').showModal() method */}
-            {/* <button className="btn" onClick={() => document.getElementById('my_modal_4').showModal()}>open modal</button> */}
             <dialog id="my_modal_4" className="modal">
                 <div className="modal-box max-w-5xl">
                     <div className="flex flex-col lg:flex-row">
                         <div className="border-r-8">
                             <img className="w-[500px] " src={details.image} alt="" />
                         </div>
-                        <div className="p-5 space-y-4">
+                        <div className="p-5 space-y-4 border">
                             <h1 className="text-5xl font-extrabold">{details.name}</h1>
                             <div className="flex justify-between gap-7 items-center mt-4">
                                 <p><span className="font-semibold">Catergory:</span> {details.category}</p>
@@ -281,21 +279,21 @@ const Products = () => {
                             </div>
                             <p><span className="font-semibold">Description: </span>{details.description}</p>
                             <button className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
-                                    <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-[#1B1616] to-gray-500 group-hover:opacity-100"></span>
-                                    <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
-                                    <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
-                                    <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
-                                    <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
-                                    <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
-                                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                                    <span className="relative flex items-center hover:text-white text-xl font-sans"><BsCurrencyDollar />{details.price}</span>
-                                </button>
+                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-[#1B1616] to-gray-500 group-hover:opacity-100"></span>
+                                <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
+                                <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
+                                <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
+                                <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
+                                <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
+                                <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
+                                <span className="relative flex items-center hover:text-white text-xl font-sans"><BsCurrencyDollar />{details.price}</span>
+                            </button>
                         </div>
                     </div>
                     <div className="modal-action">
                         <form method="dialog">
-                            {/* if there is a button, it will close the modal */}
-                            <button className="btn">Close</button>
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                         </form>
                     </div>
                 </div>
