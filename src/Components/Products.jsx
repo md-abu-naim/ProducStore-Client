@@ -61,7 +61,7 @@ const Products = () => {
 
     // data fatching
     useEffect(() => {
-        fetch(`https://produc-store.vercel.app/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
+        fetch(`https://produc-store-three.vercel.app/products?search=${search}&page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
             .then(res => res.json())
             .then(data => {
                 setProducts(data)
@@ -70,7 +70,7 @@ const Products = () => {
 
     // data count fatching
     useEffect(() => {
-        fetch(`https://produc-store.vercel.app/products-count?filter=${filter}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
+        fetch(`https://produc-store-three.vercel.app/products-count?filter=${filter}&brand=${brandFilter}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
             .then(res => res.json())
             .then(data => {
                 setCount(data.count)
@@ -151,14 +151,14 @@ const Products = () => {
                         <option value=''>Sort By</option>
                         <option value='asc'>Price: High to Low</option>
                         <option value='dsc'>Price: Low to High</option>
-                        <option value='date'>Date: Newest First</option>
+                        <option value='Popularity'>By: Popularity</option>
                     </select>
                     <button onClick={handleReset} className="btn bg-gray-700 hover:bg-gray-500  border-none text-white font-bold">Reset</button>
                 </div>
             </div>
 
             {/* display products card */}
-            <div id="produts" className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div id="products" className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
                     products?.map(product => <div key={product.name} className="card border bg-base-100 shadow-xl">
                         <figure className="px-4 pt-5">
@@ -264,11 +264,11 @@ const Products = () => {
             <dialog id="my_modal_4" className="modal">
                 <div className="modal-box max-w-5xl">
                     <div className="flex flex-col lg:flex-row">
-                        <div className="border-r-8">
-                            <img className="w-[500px] " src={details.image} alt="" />
+                        <div className="lg:border-r-8 p-5 flex items-center justify-center">
+                            <img className="w-[400px] " src={details.image} alt="" />
                         </div>
-                        <div className="p-5 space-y-4 border">
-                            <h1 className="text-5xl font-extrabold">{details.name}</h1>
+                        <div className="p-5 space-y-4 flex-1">
+                            <h1 className="text-3xl md:text-5xl font-extrabold">{details.name}</h1>
                             <div className="flex justify-between gap-7 items-center mt-4">
                                 <p><span className="font-semibold">Catergory:</span> {details.category}</p>
                                 <p className="flex items-center"><span className="font-semibold">Ratings: </span><IoStarHalf className="font-bold" /> <span className="font-sans">{details.rating}</span></p>
@@ -277,8 +277,12 @@ const Products = () => {
                                 <p><span className="font-semibold">Date: </span><span className="font-sans">{details.date}</span></p>
                                 <p className="flex items-center"><span className="font-semibold mr-1 ">Time:</span><span className="flex items-center font-sans">{details.time}</span></p>
                             </div>
-                            <p><span className="font-semibold">Description: </span>{details.description}</p>
-                            <button className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
+                            <div className="flex justify-between items-center">
+                                <p><span className="font-semibold">Brand: </span><span className="font-sans">{details.brand}</span></p>
+                                <p className="flex items-center"><span className="font-semibold mr-1 ">Price:</span><span className="flex items-center font-sans"><BsCurrencyDollar />{details.price}</span></p>
+                            </div>
+                            <p><span className="font-semibold">Description: </span>{details.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae, impedit dolorum quam doloremque voluptatem veritatis expedita, magni provident maxime eos delectus officia, dolores repudiandae?</p>
+                            {/* <button className="relative w-full inline-flex items-center border justify-center px-6 py-3 overflow-hidden font-bold text-black rounded-md shadow-2xl group">
                                 <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-[#1B1616] to-gray-500 group-hover:opacity-100"></span>
                                 <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                 <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
@@ -287,7 +291,7 @@ const Products = () => {
                                 <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
                                 <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
                                 <span className="relative flex items-center hover:text-white text-xl font-sans"><BsCurrencyDollar />{details.price}</span>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                     <div className="modal-action">
